@@ -4,7 +4,15 @@ module.exports = {
     title: "Product Configurator",
   },
   plugins: [
-    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        useResolveUrlLoader: true, // to get the image urls relative to their declaration, and not the entry point
+        sassOptions: {
+          precision: 6, // for bootstrap 4
+        },
+      },
+    },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -31,4 +39,4 @@ module.exports = {
       __key: "images",
     },
   ],
-};
+}
