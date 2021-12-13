@@ -1,0 +1,161 @@
+
+/*----------------------- Theme Hero Banner / Six ---------------*/
+.hero-banner-six {
+  position: relative;
+  padding: 125px 0;
+}
+.hero-banner-six .hero-heading {
+  font-size: 100px;
+  line-height: 115%;
+  color: #ffffff;
+}
+.hero-banner-six .hero-heading span {
+  color: #ff275b;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+.hero-banner-six .hero-sub-heading {
+  font-size: 22px;
+  padding: 45px 0 90px;
+}
+.hero-banner-six .button-group .ios-button {
+  width: 200px;
+  height: 65px;
+  padding: 0 5px 0 25px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  margin-right: 45px;
+}
+.hero-banner-six .button-group .ios-button .icon {
+  margin-right: 15px;
+}
+.hero-banner-six .button-group .ios-button span {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+  display: block;
+  margin-bottom: -11px;
+  margin-top: -5px;
+}
+.hero-banner-six .button-group .ios-button strong {
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+}
+.hero-banner-six .button-group .video-button span {
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 14px;
+  transition: all 0.3s ease;
+}
+.hero-banner-six .button-group .video-button span:hover {
+  color: #ff275b;
+}
+.hero-banner-six .illustration-content {
+  position: absolute;
+  right: 0;
+  top: 55%;
+  transform: translateY(-50%);
+  padding-right: 2%;
+  width: 45%;
+  max-width: 861px;
+}
+.hero-banner-six .illustration-content .main-img {
+  animation: rotated 10s infinite linear;
+}
+.hero-banner-six .illustration-content .screen-one {
+  position: absolute;
+  width: 83%;
+  top: 10%;
+  right: 17%;
+  z-index: 1;
+  animation: jumpTwo 10s infinite linear;
+}
+.hero-banner-six .illustration-content .screen-two {
+  position: absolute;
+  width: 35%;
+  top: 16%;
+  right: 0;
+  z-index: 2;
+  animation: jumpThree 10s infinite linear;
+}
+.hero-banner-six .illustration-content .screen-two:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  width: 89%;
+  height: 88%;
+  transform: rotate(12deg);
+  background: rgba(17, 14, 14, 0.8);
+  filter: blur(100px);
+  z-index: -1;
+}
+.hero-banner-six .illustration-content .shape-one {
+  top: 4%;
+  left: 17%;
+  z-index: 1;
+  animation: rotated 3s infinite linear;
+}
+.hero-banner-six .illustration-content .shape-two {
+  top: -7%;
+  left: 44%;
+  z-index: 1;
+}
+.hero-banner-six .illustration-content .shape-three {
+  top: 4%;
+  right: 11%;
+  z-index: 1;
+}
+.hero-banner-six .illustration-content .shape-four {
+  bottom: -1%;
+  left: 29%;
+  z-index: 1;
+}
+.hero-banner-six .illustration-content .shape-five {
+  bottom: -3%;
+  left: 13%;
+  z-index: 1;
+}
+.hero-banner-six .illustration-content .shape-six {
+  bottom: 4%;
+  left: 45%;
+  z-index: 1;
+  width: 18%;
+}
+.hero-banner-six .illustration-content .oval-one {
+  position: absolute;
+  width: 875px;
+  height: 875px;
+  border-radius: 50%;
+  left: -34%;
+  top: -21%;
+  background: rgba(255, 255, 255, 0.1);
+  filter: blur(300px);
+}
+.hero-banner-six .illustration-content .oval-two {
+  position: absolute;
+  width: 868px;
+  height: 868px;
+  border-radius: 50%;
+  top: -38%;
+  left: 23%;
+  background: rgba(89, 156, 255, 0.12);
+  filter: blur(300px);
+  transform: rotate(150deg);
+  z-index: -2;
+}
+.hero-banner-six .illustration-content .oval-three {
+  position: absolute;
+  width: 868px;
+  height: 868px;
+  border-radius: 50%;
+  top: -5%;
+  left: 2%;
+  background: rgba(255, 4, 64, 0.2);
+  filter: blur(300px);
+  transform: rotate(150deg);
+  z-index: -3;
+}

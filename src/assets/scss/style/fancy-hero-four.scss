@@ -1,0 +1,84 @@
+
+/*-------------------- Fancy Hero Four ---------------------*/
+.fancy-hero-four {
+  background: #ecf6ff;
+  position: relative;
+  padding: 185px 0 390px;
+  z-index: 5;
+  text-align: center;
+}
+.fancy-hero-four.bg-event {
+  background: #fbf3ec;
+}
+.fancy-hero-four.bg-doc {
+  background: #f7faff;
+}
+.fancy-hero-four.space-fix {
+  padding: 220px 0 320px;
+}
+.fancy-hero-four h6 {
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: rgba(42, 42, 42, 0.52);
+  padding-bottom: 25px;
+}
+.fancy-hero-four h2 {
+  font-family: "gilroy-black";
+  font-size: 80px;
+  line-height: 1.1em;
+}
+.fancy-hero-four .sub-heading {
+  font-size: 24px;
+  line-height: 1.75em;
+  padding: 55px 0 15px;
+  color: #2a2a2a;
+}
+.fancy-hero-four .shape-one {
+  width: 6px;
+  height: 6px;
+  background: #f77a56;
+  top: 29%;
+  right: 27%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-hero-four .shape-two {
+  width: 12px;
+  height: 12px;
+  background: #ffdbd0;
+  top: 59%;
+  right: 12%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-hero-four .shape-three {
+  width: 8px;
+  height: 8px;
+  background: #f77a56;
+  top: 84%;
+  right: 25%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-hero-four .shape-four {
+  width: 10px;
+  height: 10px;
+  background: #ffdbd0;
+  top: 79%;
+  left: 21%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-hero-four .shape-five {
+  width: 6px;
+  height: 6px;
+  background: #f77a56;
+  top: 50%;
+  left: 12%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-hero-four .shape-six {
+  width: 11px;
+  height: 11px;
+  background: #ff7052;
+  top: 27%;
+  left: 21%;
+  animation: jumpTwo 5s infinite linear;
+}

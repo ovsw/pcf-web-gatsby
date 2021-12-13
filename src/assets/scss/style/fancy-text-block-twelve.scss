@@ -1,0 +1,53 @@
+
+/*----------------- Fancy Text block Twelve -------------------*/
+.fancy-text-block-twelve .text-wrapper .sub-text {
+  font-size: 22px;
+  line-height: 1.81em;
+  padding-top: 40px;
+}
+.fancy-text-block-twelve .img-gallery {
+  display: inline-block;
+  padding: 30px 45px 0 25px;
+  position: relative;
+}
+.fancy-text-block-twelve .img-gallery .shape-one {
+  top: -7%;
+  left: -10%;
+}
+.fancy-text-block-twelve .img-gallery .shape-two {
+  bottom: -13%;
+  right: -4%;
+  animation: jumpTwo 5s infinite linear;
+}
+.block-style-eight {
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  padding: 20px 15px 25px 32px;
+  margin-top: 30px;
+  border: 2px solid #dce4e8;
+  border-radius: 5px;
+}
+.block-style-eight:hover {
+  border-color: #000;
+}
+.block-style-eight .title {
+  font-family: "gilroy-bold";
+  font-size: 20px;
+  margin: 0 0 24px;
+  display: inline-block;
+  position: relative;
+}
+.block-style-eight .title:before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: var(--yellow-deep);
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+.block-style-eight p {
+  line-height: 1.72em;
+  color: #000;
+}

@@ -1,0 +1,119 @@
+
+/*------------------ Pricing Section Five ---------------*/
+.pricing-section-five {
+  position: relative;
+  z-index: 1;
+}
+.pricing-section-five:before {
+  content: "";
+  position: absolute;
+  width: 860px;
+  height: 860px;
+  border-radius: 50%;
+  top: -32%;
+  left: 9%;
+  background: rgba(89, 156, 255, 0.12);
+  filter: blur(300px);
+  transform: rotate(150deg);
+  z-index: -1;
+}
+.pricing-section-five:after {
+  content: "";
+  position: absolute;
+  width: 860px;
+  height: 860px;
+  border-radius: 50%;
+  bottom: -19%;
+  left: 7%;
+  background: rgba(255, 4, 64, 0.15);
+  filter: blur(300px);
+  transform: rotate(150deg);
+  z-index: -2;
+}
+.pricing-table-area-five .row {
+  margin: 0 -20px;
+}
+.pricing-table-area-five .row [class*="col-"] {
+  padding: 0 20px;
+}
+.pricing-table-area-five .pr-table-wrapper {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  position: relative;
+  padding: 58px 15px 55px 47px;
+}
+.pricing-table-area-five .pr-table-wrapper .pack-name {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  padding: 39px 0 37px;
+}
+.pricing-table-area-five .pr-table-wrapper .pr-feature li {
+  line-height: 42px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 30px;
+  position: relative;
+}
+.pricing-table-area-five .pr-table-wrapper .pr-feature li:before {
+  content: url(../../images/icon/87.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pricing-table-area-five .pr-table-wrapper .price {
+  color: #fff;
+  font-size: 28px;
+  padding: 45px 0 7px;
+}
+.pricing-table-area-five .pr-table-wrapper .trial-text {
+  color: rgba(255, 255, 255, 0.54);
+}
+.pricing-table-area-five .pr-table-wrapper .trial-button {
+  width: 170px;
+  line-height: 50px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 35px;
+  text-align: center;
+}
+.pricing-table-area-five .pr-table-wrapper .trial-button:before {
+  border-radius: 24px;
+}
+.pricing-table-area-five .pr-table-wrapper.active {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: transparent;
+}
+.pricing-table-area-five .pr-table-wrapper.active .trial-button {
+  background: rgba(255, 255, 255, 0.1);
+}
+.pricing-table-area-five .shape-one {
+  z-index: 1;
+  right: -47px;
+  top: -76px;
+  animation: rotated 35s infinite linear;
+}
+.pricing-table-area-five .shape-two {
+  z-index: 1;
+  left: -107px;
+  bottom: -95px;
+  animation: rotated 20s infinite linear;
+}
+.pricing-table-area-five .pr-table-wrapper .popular-badge {
+  top: -90px;
+  left: -77px;
+  position: absolute;
+  z-index: 1;
+  animation: jumpTwo 10s infinite linear;
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+}
+.pricing-table-area-five .js-tilt-glare .js-tilt-glare-inner {
+  border-radius: 15px;
+  background-image: none !important;
+}
+.pricing-table-area-five .pr-table-wrapper.active .popular-badge {
+  display: none;
+}

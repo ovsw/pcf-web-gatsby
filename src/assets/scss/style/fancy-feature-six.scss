@@ -1,0 +1,62 @@
+
+/*--------------- Fancy Feature Six -------------*/
+.fancy-feature-six {
+  padding: 0 15px;
+}
+.fancy-feature-six .bg-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 110px 0 210px;
+  background: url(../../images/shape/bg4.svg) no-repeat top center;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+}
+.fancy-feature-six .bg-wrapper .shape-one {
+  width: 16px;
+  height: 16px;
+  background: #f96f60;
+  z-index: 1;
+  top: 5px;
+  left: 14%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-feature-six .bg-wrapper .shape-two {
+  width: 12px;
+  height: 12px;
+  background: #f96f60;
+  top: 36%;
+  right: 4%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-feature-six .bg-wrapper .shape-three {
+  width: 7px;
+  height: 7px;
+  background: #f96f60;
+  top: 68%;
+  right: 4%;
+  opacity: 0.25;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-feature-six .bg-wrapper .shape-four {
+  width: 10px;
+  height: 10px;
+  background: #f96f60;
+  top: 91%;
+  left: 7%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-feature-six .bg-wrapper .shape-five {
+  width: 7px;
+  height: 7px;
+  background: #f96f60;
+  top: 31%;
+  left: 4%;
+  opacity: 0.25;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-feature-six .bg-wrapper .shape-six {
+  top: 78%;
+  right: 2%;
+  animation: rotatedTwo 50s infinite linear;
+}

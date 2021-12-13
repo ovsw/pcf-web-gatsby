@@ -1,0 +1,50 @@
+
+/*=======================================================================
+                              Product landing / Schedule Appointment           
+=========================================================================*/
+/*-------------------- Menu ---------------*/
+.theme-menu-six .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  margin: 0 25px;
+  color: #fff;
+}
+.theme-menu-six .navbar-nav .nav-item .nav-link.active {
+  text-decoration: underline;
+}
+.theme-menu-six .right-widget .signIn-action {
+  font-size: 20px;
+  line-height: 46px;
+  color: #fff;
+  margin: 0 40px 0 100px;
+  transition: all 0.3s ease-in-out;
+}
+.theme-menu-six .right-widget .signIn-action:hover {
+  text-decoration: underline;
+}
+.theme-menu-six .right-widget .signIn-action img {
+  margin-right: 12px;
+  margin-top: -3px;
+}
+.theme-menu-six .right-widget .signup-btn {
+  width: 142px;
+  line-height: 50px;
+  font-size: 16px;
+  background: #fff;
+  border-radius: 30px;
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.theme-menu-six .right-widget .signup-btn:hover {
+  background: #c751ff;
+  color: #fff;
+}
+.theme-menu-six.fixed .navbar-nav .nav-item .nav-link,
+.theme-menu-six.fixed .right-widget .signIn-action {
+  color: #000;
+}
+.theme-menu-six.fixed .right-widget .signup-btn {
+  background: #572ff6;
+  color: #fff;
+}

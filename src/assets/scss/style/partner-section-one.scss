@@ -1,0 +1,104 @@
+
+/*----------------- Partner Section One -------------------*/
+.partner-section-one {
+  position: relative;
+  z-index: 1;
+}
+.partner-section-one .img-box a {
+  display: block;
+  height: 100%;
+}
+.partner-section-one .img-box img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+.partner-section-one .img-box {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 15px 30px 50px rgba(26, 34, 72, 0.08);
+  width: 175px;
+  height: 175px;
+  margin: 0 auto 35px;
+  transition: all 0.3s ease-in-out;
+  @media screen and (max-width: 575px) {
+    width: 150px;
+    height: 150px;
+  }
+}
+.partner-section-one.bg-transparent .img-box {
+  box-shadow: 15px 30px 50px rgba(23, 32, 90, 0.06);
+}
+.partner-section-one .img-box:hover {
+  transform: scale(1.1);
+}
+.partner-section-one .img-box.bx-b {
+  width: 121px;
+  height: 121px;
+  margin-top: 45px;
+}
+.partner-section-one .img-box.bx-d {
+  width: 151px;
+  height: 151px;
+  margin-top: 25px;
+}
+.partner-section-one .img-box.bx-f {
+  width: 135px;
+  height: 135px;
+  margin-top: 20px;
+}
+.partner-section-one .img-box.bx-g {
+  width: 197px;
+  height: 197px;
+  @media screen and (max-width: 575px) {
+    width: 150px;
+    height: 150px;
+  }
+}
+.partner-section-one .img-box.bx-h {
+  width: 138px;
+  height: 138px;
+  margin-top: 20px;
+}
+
+.partner-section-one .shape-one {
+  top: 9%;
+  right: 14%;
+  animation: rotated 12s infinite linear;
+}
+.partner-section-one .shape-two {
+  top: 44%;
+  right: 9%;
+  animation: rotatedTwo 12s infinite linear;
+}
+.partner-section-one .shape-three {
+  bottom: 19%;
+  right: 12%;
+  animation: jumpTwo 3s infinite linear;
+}
+.partner-section-one .shape-four {
+  bottom: 0;
+  right: 36%;
+  animation: rotated 12s infinite linear;
+}
+.partner-section-one .shape-five {
+  bottom: 0;
+  left: 36%;
+  animation: rotatedTwo 12s infinite linear;
+}
+.partner-section-one .shape-six {
+  bottom: 17%;
+  left: 18%;
+  animation: rotated 12s infinite linear;
+}
+.partner-section-one .shape-seven {
+  top: 43%;
+  left: 9%;
+  animation: jumpTwo 3s infinite linear;
+}
+.partner-section-one .shape-eight {
+  top: 10%;
+  left: 19%;
+  animation: rotatedTwo 12s infinite linear;
+}

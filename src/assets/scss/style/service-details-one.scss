@@ -1,0 +1,114 @@
+
+/*-------------------- Service Details One --------------------*/
+.service-details-one .details-wrapper h2 {
+  font-size: 58px;
+  line-height: 1.29em;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+.service-details-one .details-wrapper .sub-heading {
+  font-size: 24px;
+  line-height: 1.91em;
+  color: #000;
+}
+.service-details-one .details-wrapper .img-meta {
+  border-radius: 15px;
+}
+.service-details-one .details-wrapper p {
+  line-height: 34px;
+}
+.service-details-one .details-wrapper h4 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 22px;
+}
+.service-details-one .details-wrapper .list-item-one li {
+  margin-bottom: 12px;
+  padding-left: 32px;
+  position: relative;
+}
+.service-details-one .details-wrapper .list-item-one li:before {
+  content: url(../../images/icon/189.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.service-details-one .details-wrapper h3 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.service-details-one .accordion-style-three .card .card-header button {
+  font-family: "gordita";
+  font-weight: 500;
+  font-size: 22px;
+  padding: 30px 35px 30px 0;
+}
+.service-details-one
+  .accordion-style-three
+  .card:first-child
+  .card-header
+  button {
+  border-top: 1px solid #e5e5e5;
+}
+.service-details-one .accordion-style-three .card {
+  border-bottom: 1px solid #e5e5e5;
+}
+.service-details-one .accordion-style-three .card .card-body {
+  border-bottom: 0;
+}
+.service-details-one .sidebar .category-list {
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 32px 5px 30px 35px;
+}
+.service-details-one .sidebar h4 {
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.service-details-one .sidebar .category-list a {
+  font-family: "gordita";
+  line-height: 42px;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+.service-details-one .sidebar .category-list a:hover,
+.service-details-one .sidebar .category-list a.active {
+  color: var(--blue-dark);
+}
+.service-details-one .sidebar .sidenote {
+  background: var(--blue-dark);
+  border-radius: 10px;
+  padding: 60px 25px 25px;
+  margin: 50px 0 48px;
+  text-align: center;
+}
+.service-details-one .sidebar .sidenote p {
+  color: #fff;
+  position: relative;
+  margin-bottom: 5px;
+}
+.service-details-one .sidebar .sidenote p:before {
+  content: "“";
+  font-family: "gordita";
+  font-size: 80px;
+  color: #fff;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.service-details-one .sidebar .sidenote span {
+  color: #fff;
+  font-size: 17px;
+}
+.service-details-one .sidebar .social-icon li a {
+  font-size: 20px;
+  color: #bcbcbc;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.service-details-one .sidebar .social-icon li a:hover {
+  color: #000;
+}

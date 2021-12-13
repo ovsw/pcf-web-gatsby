@@ -1,0 +1,141 @@
+
+
+/*---------------------Theme Hero Banner/Five ---------------*/
+.hero-banner-five {
+  position: relative;
+  text-align: center;
+  padding: 56px 0 0;
+}
+.hero-banner-five .hero-heading {
+  font-size: 82px;
+  line-height: 1.219em;
+}
+.hero-banner-five .hero-heading span {
+  position: relative;
+  color: #ff2759;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
+.hero-banner-five .hero-sub-heading {
+  font-size: 24px;
+  padding: 20px 0 62px;
+  color: #000;
+}
+
+.hero-banner-five .sing-in-call {
+  font-size: 16px;
+  padding-top: 20px;
+  color: #878787;
+}
+.hero-banner-five .sing-in-call span {
+  color: #000;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+.hero-banner-five .sing-in-call span:hover {
+  text-decoration: underline;
+}
+.hero-banner-five .button-group a {
+  width: 200px;
+  height: 60px;
+  padding: 0 5px 0 25px;
+  margin: 10px 12px;
+  border: 2px solid #111111;
+  border-radius: 6px;
+  color: #000;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+.hero-banner-five .button-group a:hover {
+  transform: translateY(-5px);
+  box-shadow: -5px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.hero-banner-five .button-group a .icon {
+  margin-right: 15px;
+}
+.hero-banner-five .button-group a span {
+  font-size: 11px;
+  color: #737373;
+  display: block;
+  margin-bottom: -11px;
+  margin-top: -5px;
+}
+.hero-banner-five .button-group a strong {
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+}
+.hero-banner-five .button-group a.ios-button {
+  background: #111111;
+  color: #fff;
+}
+.hero-banner-five .button-group a.ios-button span {
+  color: rgba(255, 255, 255, 0.7);
+}
+.hero-banner-five .img-gallery {
+  border-bottom: 1px solid #eaeaea;
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+.hero-banner-five .img-gallery .screen-container {
+  border: 4px solid #000;
+  border-radius: 45px 45px 0 0;
+  border-bottom: none;
+  position: relative;
+}
+.hero-banner-five .img-gallery .screen-container .main-screen {
+  width: 100%;
+  border-radius: 40px 40px 0 0;
+}
+.hero-banner-five .img-gallery .screen-one {
+  width: 19%;
+  top: 26%;
+  right: -10%;
+  z-index: 1;
+  box-shadow: 0 35px 70px rgba(12, 21, 44, 0.08);
+  animation: jumpTwo 5s infinite linear;
+}
+.hero-banner-five .img-gallery .screen-two {
+  width: 31%;
+  bottom: -12%;
+  left: -16%;
+  z-index: 1;
+  box-shadow: -10px 40px 80px rgba(25, 42, 70, 0.05);
+  animation: jumpThree 5s infinite linear;
+}
+.hero-banner-five .shape-one {
+  left: 0;
+  top: 25%;
+}
+.hero-banner-five .shape-two {
+  right: 0;
+  bottom: 9%;
+}
+.hero-banner-five .shape-three {
+  right: 10%;
+  top: 27%;
+}
+.hero-banner-five .shape-four {
+  left: 11%;
+  top: 56%;
+}
+.partner-slider-two p {
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 45px;
+}
+.partner-slider-two p span {
+  font-weight: 500;
+}
+.partner-slider-two .img-meta {
+  height: 80px;
+}
+.partner-slider-two p.text-lg {
+  font-size: 36px;
+  line-height: 1.44em;
+  font-weight: 500;
+}
+.partner-slider-two p.text-lg span {
+  color: #ffb840;
+}

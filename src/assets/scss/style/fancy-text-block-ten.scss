@@ -1,0 +1,57 @@
+
+/*------------------ Fancy Text block Ten ----------------*/
+.fancy-text-block-ten .container {
+  max-width: 1300px;
+  padding: 0 15px;
+}
+.fancy-text-block-ten p {
+  font-size: 42px;
+  line-height: 1.35em;
+  color: #000000;
+  padding: 25px 0 50px;
+}
+.fancy-text-block-ten .name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  position: relative;
+  padding-left: 28px;
+}
+.fancy-text-block-ten .name span {
+  font-size: 18px;
+  color: #8a8a8a;
+  font-weight: normal;
+}
+.fancy-text-block-ten .name:before {
+  content: "";
+  width: 15px;
+  height: 3px;
+  border-radius: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
+.fancy-text-block-ten .img-meta {
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.fancy-text-block-ten .img-gallery {
+  position: relative;
+}
+.fancy-text-block-ten .img-gallery:before {
+  content: url(../../images/shape/45.svg);
+  position: absolute;
+  top: -14%;
+  right: -5%;
+  z-index: 1;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-text-block-ten .img-gallery:after {
+  content: url(../../images/shape/46.svg);
+  position: absolute;
+  bottom: -12%;
+  left: -12%;
+  z-index: -1;
+  animation: rotatedTwo 50s infinite linear;
+}

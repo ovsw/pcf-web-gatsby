@@ -1,0 +1,168 @@
+/*-------------------- Fancy Feature Three -------------------*/
+.counter-info-classic {
+  max-width: 445px;
+  height: 442px;
+  position: relative;
+  z-index: 5;
+  margin-top: 100px;
+}
+.counter-box-one {
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.counter-box-one.color-one {
+  background: rgba(0, 166, 255, 0.65);
+  width: 195px;
+  height: 195px;
+  top: 40px;
+  left: 40px;
+  z-index: -2;
+}
+
+.counter-box-one.color-two {
+  background: rgba(140, 39, 255, 0.55);
+  width: 154px;
+  height: 154px;
+  top: 136px;
+  left: 248px;
+  z-index: 2;
+}
+.counter-box-one.color-three {
+  background: rgba(255, 173, 58, 0.72);
+  width: 212px;
+  height: 212px;
+  top: 200px;
+  left: 110px;
+  z-index: 1;
+}
+.counter-box-one .number {
+  color: #fff;
+  font-size: 52px;
+}
+.counter-box-one p {
+  font-size: 20px;
+  color: #fff;
+}
+.counter-info-classic [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.counter-info-classic .bubble-one {
+  width: 8px;
+  height: 8px;
+  background: #7dec72;
+  top: 0;
+  left: 62%;
+  animation: scale-up-three 4s infinite linear;
+}
+.counter-info-classic .bubble-two {
+  width: 22px;
+  height: 22px;
+  background: #ffb56a;
+  top: 15%;
+  left: 63%;
+  animation: scale-up-one 4s infinite linear;
+}
+.counter-info-classic .bubble-three {
+  width: 8px;
+  height: 8px;
+  background: #88d9ff;
+  top: 16%;
+  right: 11%;
+  animation: scale-up-three 4s infinite linear;
+}
+.counter-info-classic .bubble-four {
+  width: 17px;
+  height: 17px;
+  background: #ff6cc4;
+  bottom: 24%;
+  right: 13%;
+  animation: scale-up-one 4s infinite linear;
+}
+.counter-info-classic .bubble-five {
+  width: 8px;
+  height: 8px;
+  background: #77f4f5;
+  bottom: 20%;
+  right: 5%;
+  animation: scale-up-three 4s infinite linear;
+}
+.counter-info-classic .bubble-six {
+  width: 26px;
+  height: 26px;
+  background: #a595ff;
+  bottom: 32%;
+  left: 0;
+  animation: scale-up-one 4s infinite linear;
+}
+.counter-info-classic .bubble-seven {
+  width: 9px;
+  height: 9px;
+  background: #66e19e;
+  bottom: 40%;
+  left: 14%;
+  animation: scale-up-three 4s infinite linear;
+}
+.counter-info-classic .dot-shape {
+  z-index: -5;
+  top: 35px;
+  right: 0;
+}
+.clients-feedback-classic {
+  position: relative;
+  padding: 20px 0 0 90px;
+  z-index: 5;
+}
+.clients-feedback-classic:before {
+  content: url(../../images/shape/9.svg);
+  position: absolute;
+  top: -120px;
+  right: -185px;
+  z-index: -1;
+}
+.clients-feedback-classic .feedback-wrapper {
+  background: #fff;
+  position: relative;
+  box-shadow: 0 20px 80px rgba(49, 62, 103, 0.07);
+  border-radius: 5px;
+  padding: 54px 64px 48px;
+  margin-bottom: 108px;
+}
+.clients-feedback-classic .feedback-wrapper:before {
+  content: url(../../images/icon/05.svg);
+  position: absolute;
+  bottom: 55px;
+  right: 60px;
+  filter: invert(0.1);
+}
+.clients-feedback-classic .feedback-wrapper p {
+  padding-bottom: 30px;
+}
+.clients-feedback-classic .feedback-wrapper .media-meta {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: -35px;
+  z-index: 1;
+}
+.clients-feedback-classic .feedback-wrapper .name {
+  font-family: "gilroy-semibold";
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+.clients-feedback-classic .feedback-wrapper .disg-info {
+  display: block;
+  font-size: 16px;
+  color: #939393;
+}
+.clients-feedback-classic .feedback-wrapper:last-child {
+  margin-bottom: -100px;
+}

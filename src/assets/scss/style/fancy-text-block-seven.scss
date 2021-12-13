@@ -1,0 +1,65 @@
+
+/*------------------- Fancy Text block Seven ----------------*/
+.fancy-text-block-seven .bg-wrapper {
+  max-width: 1460px;
+  margin: 0 auto;
+  position: relative;
+  background: url(../../images/shape/bg.svg) no-repeat top center;
+  background-size: cover;
+  z-index: 1;
+  padding: 42px 0 70px;
+}
+.fancy-text-block-seven .bg-wrapper.no-bg {
+  background: none;
+}
+.fancy-text-block-seven .img-holder {
+  position: relative;
+}
+.fancy-text-block-seven .quote-wrapper blockquote {
+  font-size: 42px;
+  line-height: 1.35em;
+  color: #000;
+  padding: 22px 0 30px;
+}
+.fancy-text-block-seven .quote-wrapper h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.fancy-text-block-seven .quote-wrapper h6 span {
+  display: block;
+  font-size: 18px;
+  color: #9eadba;
+  font-weight: normal;
+  padding-top: 8px;
+}
+.fancy-text-block-seven .shape-one {
+  top: 13%;
+  left: 5%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-text-block-seven .shape-two {
+  top: 21%;
+  right: 8%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-text-block-seven .shape-three {
+  bottom: 12%;
+  right: 8%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-text-block-seven .shape-four {
+  bottom: 47%;
+  left: 45%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-text-block-seven .shape-five {
+  bottom: 12%;
+  left: 8%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-text-block-seven .shape-six {
+  top: 14%;
+  left: -6%;
+  z-index: 1;
+  animation: jumpThree 5s infinite linear;
+}

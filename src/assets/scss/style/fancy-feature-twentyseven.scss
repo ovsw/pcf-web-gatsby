@@ -1,0 +1,31 @@
+
+/*----------------- Fancy Feature Twenty Seven -------------------*/
+.block-style-twentySeven {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 55px 12px 40px;
+  text-align: center;
+  margin-top: 35px;
+  transition: all 0.3s ease-in-out;
+}
+.block-style-twentySeven:hover {
+  border-color: #fff;
+  background: #fff;
+  box-shadow: 0 15px 40px rgba(21, 21, 21, 0.09);
+}
+.block-style-twentySeven .icon {
+  height: 50px;
+}
+.block-style-twentySeven .icon img {
+  max-height: 100%;
+}
+.block-style-twentySeven h4 {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  margin: 42px 0 20px;
+}
+.block-style-twentySeven p {
+  font-size: 17px;
+  line-height: 28px;
+}

@@ -1,0 +1,77 @@
+/*----------------- Team Section Four --------------*/
+.team-section-four {
+  background: #dff1ee;
+  position: relative;
+  padding: 100px 0 60px;
+  z-index: 1;
+  &.custom-bg {
+    padding: 180px 0 120px;
+    &::after {
+      display: none;
+    }
+  }
+}
+.team-section-four:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background: url(../../images/shape/127.svg) no-repeat center top;
+  background-size: cover;
+  left: 0;
+  top: -58px;
+}
+.team-section-four:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 65px;
+  background: url(../../images/shape/128.svg) no-repeat center bottom;
+  background-size: cover;
+  left: 0;
+  bottom: -63px;
+}
+.team-section-four .shape-one {
+  right: 0;
+  top: 5%;
+}
+.team-section-four .shape-two {
+  left: 0;
+  bottom: -3%;
+}
+.team-section-four .team-wrapper {
+  position: relative;
+  z-index: 5;
+}
+.team-section-four .team-member {
+  margin-bottom: 60px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 30px;
+  display: block;
+}
+.team-section-four .team-member .img-holder {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 30px;
+}
+.team-section-four .team-member .img-holder img {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.team-section-four .team-member:hover .img-holder img {
+  transform: scale3d(1.1, 1.1, 1);
+}
+.team-section-four .team-member .name {
+  font-size: 24px;
+}
+.team-section-four .team-member .position {
+  font-size: 16px;
+  color: rgba(42, 42, 42, 0.54);
+}
+.team-section-four .team-wrapper .shape-one {
+  top: -6%;
+  left: -5%;
+}

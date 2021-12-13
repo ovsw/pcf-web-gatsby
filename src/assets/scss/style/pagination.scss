@@ -1,0 +1,52 @@
+/*-------------------- Pagination ------------------*/
+.page-pagination-one li a {
+  font-family: "Rubik", sans-serif !important;
+  background: #fff;
+  width: 40px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 17px;
+  color: #515151;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease-in-out;
+}
+.page-pagination-one li a .fa {
+  font-size: 22px;
+}
+.page-pagination-one li:first-child a {
+  border-radius: 5px 0 0 5px;
+}
+.page-pagination-one li:last-child a {
+  border-radius: 0 5px 5px 0;
+}
+.page-pagination-one li a:hover,
+.page-pagination-one li a.active {
+  background: var(--blue-dark);
+  color: #fff;
+}
+.blog-v3 .page-pagination-one li a:hover,
+.blog-v3 .page-pagination-one li a.active {
+  background: var(--red-light);
+  color: #fff;
+}
+.page-pagination-two ul li {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #bababa;
+  margin: 0 11px;
+}
+.page-pagination-two ul li:first-child a {
+  transform: rotate(180deg);
+}
+.page-pagination-two ul li:hover a,
+.page-pagination-two ul li.active a {
+  color: #000;
+}
+.page-pagination-two ul li.arrow {
+  font-size: 35px;
+  color: #000;
+}
+.page-pagination-two ul li:nth-child(7) a {
+  color: #000;
+}

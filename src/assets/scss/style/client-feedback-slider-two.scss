@@ -1,0 +1,87 @@
+
+/*-------------------- Client Feedback Slider Two ---------------------*/
+.client-feedback-slider-two {
+  background: #f7faff;
+  position: relative;
+  padding: 90px 0 120px;
+  z-index: 5;
+}
+.client-feedback-slider-two .slider-content {
+  max-width: 1710px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.client-feedback-slider-two .bg-wrapper {
+  background: #fff;
+  padding: 50px 40px 45px;
+  position: relative;
+  margin: 0 15px 70px;
+  transition: all 0.3s ease-in-out;
+}
+.client-feedback-slider-two .slick-center .bg-wrapper {
+  box-shadow: 0px 40px 40px rgba(2, 7, 7, 0.03);
+}
+.client-feedback-slider-two .bg-wrapper:before {
+  content: url(../../images/icon/58.svg);
+  position: absolute;
+  right: 40px;
+  bottom: 45px;
+}
+.client-feedback-slider-two .bg-wrapper .logo {
+  height: 40px;
+}
+.client-feedback-slider-two .bg-wrapper p {
+  font-size: 22px;
+  line-height: 1.72em;
+  color: #2c2c2c;
+  padding: 35px 0 40px;
+}
+.client-feedback-slider-two .bg-wrapper .name {
+  font-size: 22px;
+  color: #000;
+}
+.client-feedback-slider-two .bg-wrapper .desig {
+  font-size: 18px;
+  color: #b7b7b7;
+}
+.client-feedback-slider-two .slick-dots {
+  text-align: center;
+}
+.client-feedback-slider-two .slick-dots li {
+  display: inline-block;
+}
+
+.client-feedback-slider-two .shape-one {
+  top: -15px;
+  right: 17%;
+}
+.client-feedback-slider-two .shape-two {
+  top: 14%;
+  right: 7%;
+  animation: rotatedTwo 15s infinite linear;
+}
+.client-feedback-slider-two .shape-three {
+  bottom: 11%;
+  right: 0;
+}
+.client-feedback-slider-two .shape-four {
+  bottom: -13px;
+  right: 22%;
+}
+.client-feedback-slider-two .shape-five {
+  bottom: -15px;
+  left: 22%;
+}
+.client-feedback-slider-two .shape-six {
+  bottom: 13%;
+  left: 8%;
+  animation: rotatedTwo 15s infinite linear;
+}
+.client-feedback-slider-two .shape-seven {
+  top: 10%;
+  left: 0;
+}
+.client-feedback-slider-two .shape-eight {
+  top: -13px;
+  left: 19%;
+}

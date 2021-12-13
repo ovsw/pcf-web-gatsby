@@ -1,0 +1,33 @@
+
+/*------------------ Fancy Text block Nineteen ----------------*/
+.fancy-text-block-nineteen .text-wrapper .client-info {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.fancy-text-block-nineteen .text-wrapper .client-info span {
+  color: #000;
+  text-decoration: underline;
+}
+.fancy-text-block-nineteen .text-wrapper p {
+  font-size: 24px;
+  color: #0e0e0e;
+  line-height: 1.58em;
+  padding-top: 40px;
+}
+.fancy-text-block-nineteen .text-wrapper .name {
+  font-size: 24px;
+  color: #000;
+  position: relative;
+  padding-left: 28px;
+  margin-top: 50px;
+}
+.fancy-text-block-nineteen .text-wrapper .name:before {
+  content: "";
+  width: 18px;
+  height: 3px;
+  border-radius: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}

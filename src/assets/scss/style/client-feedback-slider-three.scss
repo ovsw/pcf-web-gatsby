@@ -1,0 +1,63 @@
+
+/*-------------------- Client Feedback Slider Three ---------------------*/
+.client-feedback-slider-three {
+  position: relative;
+  z-index: 5;
+}
+.client-feedback-slider-three .shape_1 {
+  left: 18%;
+  top: -3%;
+}
+.client-feedback-slider-three .shape_2 {
+  left: 9%;
+  top: 38%;
+}
+.client-feedback-slider-three .shape_3 {
+  left: 13%;
+  top: 85%;
+}
+.client-feedback-slider-three .shape_4 {
+  right: 18%;
+  top: -4%;
+}
+.client-feedback-slider-three .shape_5 {
+  right: 4%;
+  top: 33%;
+}
+.client-feedback-slider-three .shape_6 {
+  right: 19%;
+  top: 87%;
+}
+.clientSliderThree {
+  text-align: center;
+}
+.clientSliderThree p {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  line-height: 1.71em;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 25px 0 45px;
+}
+.clientSliderThree .name {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+.clientSliderThree .desig {
+  color: #a8afae;
+}
+.client-feedback-slider-three .slider-arrow li {
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 40px;
+  color: #5d5d5d;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+.client-feedback-slider-three .slider-arrow li:first-child i {
+  transform: rotate(180deg);
+  display: inline-block;
+}
+.client-feedback-slider-three .slider-arrow li:hover {
+  transform: scale(1);
+}

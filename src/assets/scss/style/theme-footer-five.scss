@@ -1,0 +1,49 @@
+
+/*---------------- Footer Style Five -----------------*/
+.theme-footer-five {
+  padding: 0 15px;
+}
+.theme-footer-five .inner-container {
+  border: 2px solid #151515;
+  border-radius: 28px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px 0 15px;
+}
+.theme-footer-five .inner-container [class*="col-"] {
+  margin-bottom: 40px;
+}
+.theme-footer-five .title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.theme-footer-five .social-icon li a {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #dbdbdb;
+  border-radius: 50%;
+  line-height: 34px;
+  text-align: center;
+  color: #000000;
+  margin: 0 5px;
+  transition: all 0.3s ease-in-out;
+}
+.theme-footer-five .social-icon li a:hover {
+  background: #ff2759;
+  border-color: #ff2759;
+  color: #fff;
+}
+.theme-footer-five .email {
+  color: #000;
+}
+.theme-footer-five .email:hover {
+  text-decoration: underline;
+}
+.theme-footer-five .copyright {
+  text-align: center;
+  font-size: 16px;
+  padding: 35px 0;
+}

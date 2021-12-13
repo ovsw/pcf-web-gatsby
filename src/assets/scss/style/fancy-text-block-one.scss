@@ -1,0 +1,111 @@
+
+/*------------------- Fancy Text block One ----------------*/
+.fancy-text-block-one {
+  position: relative;
+  z-index: 3;
+  background: linear-gradient(45deg, #fffbf2, #edfffd);
+  padding: 55px 0;
+}
+.fancy-text-block-one:before,
+.fancy-text-block-one:after {
+  content: url(../../images/shape/10.svg);
+  position: absolute;
+  opacity: 0.9;
+}
+.fancy-text-block-one:before {
+  top: -133px;
+  left: 0;
+  animation: jumpTwo 4s infinite linear;
+}
+.fancy-text-block-one:after {
+  bottom: -133px;
+  right: 0;
+  animation: jumpThree 4s infinite linear;
+}
+.fancy-text-block-one .quote-wrapper {
+  padding-left: 25px;
+}
+.fancy-text-block-one .quote-wrapper p {
+  font-family: "gilroy-semibold";
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 21px;
+}
+.fancy-text-block-one .quote-wrapper p span {
+  color: #ffb147;
+}
+.fancy-text-block-one .quote-wrapper blockquote {
+  font-size: 40px;
+  line-height: 1.5em;
+  color: #181818;
+  position: relative;
+  margin-bottom: 43px;
+}
+.fancy-text-block-one .quote-wrapper blockquote:before {
+  content: url(../../images/icon/06.svg);
+  position: absolute;
+  left: -92px;
+  top: 11px;
+}
+.fancy-text-block-one .quote-wrapper h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.fancy-text-block-one .quote-wrapper h6 span {
+  font-weight: normal;
+  color: #9c9c9c;
+  font-size: 18px;
+}
+.fancy-text-block-one [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.fancy-text-block-one .bubble-one {
+  width: 17px;
+  height: 17px;
+  background: #ff6cc4;
+  top: 15%;
+  left: 42%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-text-block-one .bubble-two {
+  width: 7px;
+  height: 7px;
+  background: #51fcff;
+  top: 29%;
+  right: 8%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-text-block-one .bubble-three {
+  width: 20px;
+  height: 20px;
+  background: #ffba65;
+  bottom: 7%;
+  right: 26%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-text-block-one .bubble-four {
+  width: 8px;
+  height: 8px;
+  background: #6aee90;
+  bottom: 29%;
+  left: 43%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-text-block-one .bubble-five {
+  width: 25px;
+  height: 25px;
+  background: #b183ff;
+  bottom: 7%;
+  left: 9%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-text-block-one .bubble-six {
+  width: 8px;
+  height: 8px;
+  background: #ffcd8b;
+  top: 31%;
+  left: 11%;
+  animation: scale-up-three 4s infinite linear;
+}

@@ -1,0 +1,62 @@
+
+/*--------------------- App Screen Preview ---------------*/
+.app-screen-preview-one {
+  position: relative;
+  z-index: 1;
+  margin-top: 200px;
+}
+.app-preview-slider-one .img-holder img {
+  transform: scale(0.8);
+  margin: 0 auto;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.app-preview-slider-one .slick-center .img-holder img {
+  transform: scale(1);
+}
+.app-screen-preview-one .round-bg {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.app-preview-slider-one {
+  margin: 0 -55px;
+}
+.app-screen-preview-one .shape-one {
+  top: 9%;
+  right: 9%;
+}
+.app-screen-preview-one .shape-two {
+  bottom: 37%;
+  right: 9%;
+}
+.app-screen-preview-one .shape-three {
+  bottom: 10%;
+  left: 9%;
+}
+.app-screen-preview-one .shape-four {
+  top: 42%;
+  left: 9%;
+}
+
+// second file 
+/*--------------------- App Screen Preview ---------------*/
+.app-preview-slider-two {
+  max-width: 1830px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.app-preview-slider-two .img-holder img {
+  transform: scale(0.8);
+  border-radius: 20px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+.app-preview-slider-two .slick-center .img-holder img {
+  transform: scale(1);
+}
+.app-screen-preview-one .round-bg {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

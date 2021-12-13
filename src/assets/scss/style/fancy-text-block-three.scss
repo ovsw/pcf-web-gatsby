@@ -1,0 +1,108 @@
+/*---------------- Fancy Text block Three -------------*/
+.fancy-text-block-three {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 110px;
+}
+.fancy-text-block-three:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 16%;
+  left: 0;
+  background: #fafaff;
+  z-index: -2;
+}
+.fancy-text-block-three .feature-content {
+  padding-bottom: 60px;
+}
+.fancy-text-block-three .feature-content.light-bg {
+  background: #5e43f0;
+  border-radius: 5px 0 0 5px;
+}
+.fancy-text-block-three .feature-content.dark-bg {
+  background: #462ec5;
+  border-radius: 0 5px 5px 0;
+}
+.fancy-text-block-three .feature-content .header {
+  padding: 65px 20px 55px 55px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.fancy-text-block-three .feature-content .header h3 {
+  font-family: "gilroy-semibold";
+  color: #fff;
+  font-size: 50px;
+}
+.fancy-text-block-three .feature-content .header p {
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #fff;
+  padding-top: 18px;
+}
+.fancy-text-block-three .feature-content .feature-list {
+  padding: 50px 20px 0 55px;
+}
+.fancy-text-block-three .feature-content .feature-list .icon-box {
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  border-radius: 50%;
+}
+.fancy-text-block-three .feature-content .feature-list .text-meta {
+  padding-left: 20px;
+  width: calc(100% - 55px);
+}
+.fancy-text-block-three .feature-content .feature-list h4 {
+  font-family: "gilroy-bold";
+  font-size: 22px;
+  color: #fff;
+}
+.fancy-text-block-three .feature-content .feature-list p {
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 7px;
+}
+.fancy-text-block-three .slogan {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.38em;
+  padding-top: 80px;
+  color: #000;
+}
+.fancy-text-block-three [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.fancy-text-block-three .bubble-one {
+  width: 15px;
+  height: 15px;
+  background: #ff6cc4;
+  top: 27%;
+  right: 10%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-text-block-three .bubble-two {
+  width: 7px;
+  height: 7px;
+  background: #f5a623;
+  top: 70%;
+  right: 10%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-text-block-three .bubble-three {
+  width: 20px;
+  height: 20px;
+  background: #b183ff;
+  bottom: 16%;
+  left: 9%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-text-block-three .bubble-four {
+  width: 8px;
+  height: 8px;
+  background: #6aee90;
+  top: 40%;
+  left: 8%;
+  animation: scale-up-three 4s infinite linear;
+}

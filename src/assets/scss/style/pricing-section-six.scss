@@ -1,0 +1,127 @@
+
+/*------------------- Pricing Section Six ------------------*/
+.pricing-nav-four {
+  margin: 70px auto 35px;
+  border: 2px solid #000;
+  padding: 6px;
+  border-radius: 10px;
+  width: 310px;
+}
+.pricing-nav-four .nav-item {
+  margin: 0;
+}
+.pricing-nav-four .nav-item .nav-link,
+.pricing-nav-four .react-tabs__tab {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 60px;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  width: 147px;
+  text-align: center;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.pricing-nav-four .nav-item .nav-link.active,
+.pricing-nav-four .react-tabs__tab.react-tabs__tab--selected {
+  background: #000;
+  color: #fff;
+}
+.pricing-table-area-six {
+  max-width: 1335px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.pricing-table-area-six .row {
+  margin: 0 -30px;
+}
+.pricing-table-area-six .row [class*="col-"] {
+  padding: 0 30px;
+}
+.pricing-table-area-six .pr-table-wrapper {
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  padding: 35px 35px 35px;
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.pricing-table-area-six .pr-table-wrapper:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  border: 2px solid #000;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-table-area-six .pr-table-wrapper .pack-name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  padding: 0 13px;
+  display: inline-block;
+  color: #000;
+}
+.pricing-table-area-six .pr-table-wrapper .pack-details {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 0 27px;
+}
+.pricing-table-area-six .pr-table-wrapper .price {
+  font-size: 58px;
+  font-weight: 500;
+  color: #000;
+  line-height: initial;
+  padding: 13px 0 6px;
+}
+.pricing-table-area-six .pr-table-wrapper .pr-feature {
+  text-align: left;
+  padding: 28px 0 42px 8px;
+}
+.pricing-table-area-six .pr-table-wrapper .pr-feature li {
+  position: relative;
+  line-height: 42px;
+  color: rgba(0, 0, 0, 0.8);
+  padding-left: 30px;
+}
+.pricing-table-area-six .pr-table-wrapper .pr-feature li:before {
+  content: url(../../images/icon/76.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pricing-table-area-six .pr-table-wrapper .trial-button {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  line-height: 52px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-table-area-six .pr-table-wrapper .trial-text {
+  font-size: 16px;
+  padding-top: 20px;
+}
+.pricing-table-area-six .pr-table-wrapper:hover:before,
+.pricing-table-area-six .pr-table-wrapper.active:before {
+  opacity: 1;
+}
+.pricing-table-area-six .pr-table-wrapper .trial-button:hover,
+.pricing-table-area-six .pr-table-wrapper.active .trial-button {
+  background: #ffeaa0;
+  border-color: #ffeaa0;
+}

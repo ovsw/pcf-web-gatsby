@@ -1,0 +1,303 @@
+/*------------------ Fancy Feature Two --------------*/
+.block-style-two .img-holder {
+  position: relative;
+}
+.block-style-two {
+  margin: 0 -60px;
+}
+.block-style-two > [class*="col-"] {
+  padding: 0 60px;
+}
+.block-style-two .text-wrapper h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  padding-bottom: 15px;
+}
+.block-style-two .text-wrapper h3 {
+  font-size: 36px;
+  line-height: 1.25em;
+  padding-bottom: 26px;
+}
+.block-style-two .text-wrapper a {
+  font-size: 16px;
+  color: var(--blue-dark);
+  margin-top: 18px;
+}
+.block-style-two .text-wrapper a:hover {
+  text-decoration: underline;
+}
+.block-style-two .text-wrapper .quote {
+  border-top: 1px solid #ececec;
+  margin-top: 22px;
+  padding-top: 20px;
+}
+.block-style-two .text-wrapper .quote blockquote {
+  font-size: 15px;
+  padding-bottom: 22px;
+  line-height: 25px;
+}
+.block-style-two .text-wrapper .quote img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.block-style-two .text-wrapper .quote .info-meta {
+  padding-left: 15px;
+}
+.block-style-two .text-wrapper .quote .info-meta h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.block-style-two .text-wrapper .quote .info-meta span {
+  font-size: 16px;
+  color: #7034ff;
+  display: block;
+}
+.block-style-two .img-holder-one .screen-one {
+  z-index: -5;
+  top: -19%;
+  right: 15%;
+  max-width: inherit;
+}
+.block-style-two .img-holder-one .dot-shape {
+  z-index: -1;
+  top: 32%;
+  right: 37%;
+  width: 60%;
+}
+.block-style-two [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.block-style-two [class*="bubble"]:before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+}
+.block-style-two .img-holder-one .bubble-one {
+  width: 120px;
+  height: 120px;
+  left: 23%;
+  top: -3%;
+  animation: rotated 14s infinite linear;
+}
+.block-style-two .img-holder-one .bubble-one:before {
+  width: 8px;
+  height: 8px;
+  background: #ae78ff;
+  top: 0;
+  left: 50%;
+}
+.block-style-two .img-holder-one .bubble-two {
+  width: 160px;
+  height: 160px;
+  top: 28%;
+  left: -21%;
+  animation: rotatedTwo 25s infinite linear;
+}
+.block-style-two .img-holder-one .bubble-two:before {
+  width: 17px;
+  height: 17px;
+  background: #ffb15f;
+  top: 50%;
+  right: 100%;
+}
+.block-style-two .img-holder-one .bubble-three {
+  width: 120px;
+  height: 120px;
+  bottom: -7%;
+  left: -10%;
+  animation: rotated 15s infinite linear;
+}
+.block-style-two .img-holder-one .bubble-three:before {
+  width: 7px;
+  height: 7px;
+  background: #ff53b3;
+  bottom: 0;
+  left: 50%;
+}
+
+.block-style-two .img-holder-one .bubble-four {
+  width: 120px;
+  height: 120px;
+  right: 27%;
+  bottom: -13%;
+  animation: rotatedTwo 17s infinite linear;
+}
+.block-style-two .img-holder-one .bubble-four:before {
+  width: 12px;
+  height: 12px;
+  background: #2eeaed;
+  bottom: 0;
+  left: 50%;
+}
+.block-style-two .img-holder-one .progress-line-one {
+  width: 16%;
+  height: 0.95%;
+  background: #03c4c6;
+  border-radius: 4px;
+  right: 28%;
+  top: 33.5%;
+}
+.block-style-two .img-holder-one .progress-line-two {
+  width: 16%;
+  height: 0.85%;
+  background: #ff3793;
+  border-radius: 4px;
+  left: 10%;
+  top: 52.6%;
+}
+.block-style-two .img-holder-two .screen-one {
+  top: -6%;
+  right: -29%;
+  z-index: 1;
+  animation: jumpTwo 3s infinite linear;
+}
+.block-style-two .img-holder-two .screen-two {
+  bottom: 1%;
+  right: -97%;
+  z-index: -5;
+  max-width: inherit;
+}
+.block-style-two .img-holder-two .dot-shape {
+  z-index: -1;
+  top: 44%;
+  right: 38%;
+  width: 69%;
+}
+.block-style-two .img-holder-two .bubble-one {
+  width: 120px;
+  height: 120px;
+  left: 15%;
+  top: -8%;
+  animation: rotated 14s infinite linear;
+}
+.block-style-two .img-holder-two .bubble-one:before {
+  width: 7px;
+  height: 7px;
+  background: #ffb651;
+  top: 0;
+  left: 50%;
+}
+.block-style-two .img-holder-two .bubble-two {
+  width: 160px;
+  height: 160px;
+  top: -31%;
+  right: -71%;
+  animation: rotatedTwo 25s infinite linear;
+}
+.block-style-two .img-holder-two .bubble-two:before {
+  width: 17px;
+  height: 17px;
+  background: #ff6cc4;
+  top: 50%;
+  right: 100%;
+}
+.block-style-two .img-holder-two .bubble-three {
+  width: 100px;
+  height: 100px;
+  top: 47%;
+  right: -58%;
+  animation: rotated 17s infinite linear;
+}
+.block-style-two .img-holder-two .bubble-three:before {
+  width: 8px;
+  height: 8px;
+  background: #4be8da;
+  bottom: 0;
+  left: 50%;
+}
+
+.block-style-two .img-holder-two .bubble-four {
+  width: 130px;
+  height: 130px;
+  left: 51%;
+  bottom: -12%;
+  animation: rotatedTwo 15s infinite linear;
+}
+.block-style-two .img-holder-two .bubble-four:before {
+  width: 13px;
+  height: 13px;
+  background: #a49bff;
+  bottom: 0;
+  left: 50%;
+}
+
+.block-style-two .img-holder-three .screen-one {
+  bottom: -42%;
+  left: -30%;
+  z-index: 1;
+  width: 79%;
+  animation: jumpTwo 3s infinite linear;
+}
+.block-style-two .img-holder-three .screen-two {
+  top: -26%;
+  left: -71%;
+  z-index: -5;
+  max-width: inherit;
+}
+.block-style-two .img-holder-three .dot-shape {
+  z-index: -1;
+  top: 44%;
+  right: 14%;
+  width: 58%;
+}
+.block-style-two .img-holder-three .bubble-one {
+  width: 95px;
+  height: 95px;
+  left: 24%;
+  top: -12%;
+  animation: rotated 14s infinite linear;
+}
+.block-style-two .img-holder-three .bubble-one:before {
+  width: 8px;
+  height: 8px;
+  background: #6aee90;
+  top: 0;
+  left: 50%;
+}
+.block-style-two .img-holder-three .bubble-two {
+  width: 160px;
+  height: 160px;
+  top: 9%;
+  left: -27%;
+  animation: rotatedTwo 25s infinite linear;
+}
+.block-style-two .img-holder-three .bubble-two:before {
+  width: 15px;
+  height: 15px;
+  background: #ff6cc4;
+  top: 50%;
+  right: 100%;
+}
+.block-style-two .img-holder-three .bubble-three {
+  width: 100px;
+  height: 100px;
+  bottom: -5%;
+  left: -42%;
+  animation: rotated 17s infinite linear;
+}
+.block-style-two .img-holder-three .bubble-three:before {
+  width: 7px;
+  height: 7px;
+  background: #51fcff;
+  bottom: 0;
+  left: 50%;
+}
+
+.block-style-two .img-holder-three .bubble-four {
+  width: 130px;
+  height: 130px;
+  left: 14%;
+  bottom: -42%;
+  animation: rotatedTwo 15s infinite linear;
+}
+.block-style-two .img-holder-three .bubble-four:before {
+  width: 14px;
+  height: 14px;
+  background: #ffcd8b;
+  bottom: 0;
+  left: 50%;
+}

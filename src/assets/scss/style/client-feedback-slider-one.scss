@@ -1,0 +1,107 @@
+
+/*--------------- Client Feedback Slider One -----------------*/
+.client-feedback-slider-one {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+.client-feedback-slider-one .shapes-holder {
+  position: absolute;
+  top: 60px;
+  left: -35px;
+  width: 40%;
+}
+.client-feedback-slider-one .shapes-holder .title-style-two {
+  position: absolute;
+  right: 0;
+  top: 43%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+.client-feedback-slider-one .shapes-holder .shape-one {
+  z-index: 1;
+  top: -11%;
+  right: 21%;
+  animation: jumpTwo 8s infinite linear;
+}
+.client-feedback-slider-one .shapes-holder [class*="cp-img"] {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+}
+.client-feedback-slider-one .shapes-holder .cp-img-one {
+  width: 60px;
+  height: 60px;
+  top: 13%;
+  left: 26%;
+}
+.client-feedback-slider-one .shapes-holder .cp-img-two {
+  width: 75px;
+  height: 75px;
+  top: 46%;
+  left: 13%;
+}
+.client-feedback-slider-one .shapes-holder .cp-img-three {
+  width: 50px;
+  height: 50px;
+  bottom: 7%;
+  left: 25%;
+}
+.client-feedback-slider-one .shapes-holder .cp-img-four {
+  width: 80px;
+  height: 80px;
+  bottom: 22%;
+  right: 21%;
+}
+.client-feedback-slider-one .feedback-meta {
+  position: relative;
+  padding-top: 138px;
+}
+.client-feedback-slider-one .feedback-meta .watermark {
+  font-size: 160px;
+  color: #f9fafc;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.client-feedback-slider-one .clientSliderOne p {
+  font-size: 24px;
+  line-height: 1.87em;
+  padding: 52px 0 60px;
+}
+.client-feedback-slider-one .clientSliderOne .c_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.client-feedback-slider-one .clientSliderOne .info {
+  padding-left: 20px;
+}
+.client-feedback-slider-one .clientSliderOne .info strong {
+  font-weight: 500;
+  font-size: 24px;
+  color: #252525;
+  display: block;
+}
+.client-feedback-slider-one .clientSliderOne .info span {
+  color: #8a8a8a;
+}
+.client-feedback-slider-one .slider-arrow li {
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 15px;
+  font-size: 24px;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+.client-feedback-slider-one .slider-arrow li:first-child i {
+  transform: rotate(180deg);
+  display: inline-block;
+}
+.client-feedback-slider-one .slider-arrow li:hover {
+  opacity: 1;
+  transform: scale(1);
+}

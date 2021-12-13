@@ -1,0 +1,62 @@
+
+/*----------------- Fancy Short Banner Eleven ---------------*/
+.fancy-short-banner-eleven {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.fancy-short-banner-eleven h2 {
+  font-size: 68px;
+  line-height: 1.23em;
+}
+.fancy-short-banner-eleven.bg-color {
+  padding: 95px 0 130px;
+  background: linear-gradient(45deg, #fffbf2 0%, #edfffd 100%);
+}
+.fancy-short-banner-eleven [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.fancy-short-banner-eleven .bubble-one {
+  width: 17px;
+  height: 17px;
+  background: #ff6cc4;
+  top: -8px;
+  right: 15%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-short-banner-eleven .bubble-two {
+  width: 7px;
+  height: 7px;
+  background: #51fcff;
+  bottom: 26%;
+  right: 26%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-short-banner-eleven .bubble-three {
+  width: 25px;
+  height: 25px;
+  background: #b183ff;
+  bottom: -12px;
+  left: 12%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-short-banner-eleven .bubble-four {
+  width: 8px;
+  height: 8px;
+  background: #ffcd8b;
+  top: 32%;
+  left: 14%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-short-banner-eleven .shape-one {
+  left: 0;
+  top: -127px;
+  animation: jumpTwo 4s infinite linear;
+}
+.fancy-short-banner-eleven .shape-two {
+  right: 0;
+  bottom: -127px;
+  animation: jumpThree 4s infinite linear;
+}

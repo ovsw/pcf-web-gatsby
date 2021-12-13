@@ -1,0 +1,76 @@
+
+/*------------------- Useable Tools -------------*/
+.useable-tools-section-three {
+  position: relative;
+}
+.useable-tools-section-three .logo-wrapper {
+  position: absolute;
+  right: -7%;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 63%;
+}
+.useable-tools-section-three .logo-wrapper .logo {
+  border-radius: 50%;
+  margin: 12px 4%;
+}
+.useable-tools-section-three .logo-wrapper .logo:nth-child(1) {
+  width: 165px;
+  height: 165px;
+  background: #ffe3e3;
+  animation: jumpTwo 5s infinite linear;
+}
+.useable-tools-section-three .logo-wrapper .logo:nth-child(2) {
+  width: 110px;
+  height: 110px;
+  background: #e8f8ff;
+  animation: jumpThree 5s infinite linear;
+}
+.useable-tools-section-three .logo-wrapper .logo:nth-child(3) {
+  width: 165px;
+  height: 165px;
+  background: #eaffe7;
+  animation: jumpTwo 5s infinite linear;
+}
+.useable-tools-section-three .logo-wrapper .logo:nth-child(4) {
+  width: 140px;
+  height: 140px;
+  background: #f3f1ff;
+  animation: jumpThree 5s infinite linear;
+}
+.useable-tools-section-three .logo-wrapper .logo:nth-child(5) {
+  width: 125px;
+  height: 125px;
+  background: #f0f5ef;
+  animation: jumpThree 5s infinite linear;
+}
+.useable-tools-section-three .logo-wrapper .logo:nth-child(6) {
+  width: 185px;
+  height: 185px;
+  background: #fff9e5;
+  animation: jumpTwo 5s infinite linear;
+}
+.useable-tools-section-three .logo-wrapper .logo:nth-child(7) {
+  width: 125px;
+  height: 125px;
+  background: #e5fffe;
+  animation: jumpThree 5s infinite linear;
+}
+.useable-tools-section-three .sub-text {
+  font-size: 22px;
+  line-height: 1.69em;
+  color: #000;
+  padding: 50px 50px 40px 0;
+}
+.useable-tools-section-three .all-button {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.useable-tools-section-three .all-button i {
+  margin-left: 5px;
+}
+.useable-tools-section-three .all-button:hover {
+  color: var(--blue-light);
+}

@@ -1,0 +1,54 @@
+
+/*------------------ Fancy Feature Fourteen --------------*/
+.fancy-feature-fourteen .logo-meta {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  height: 170px;
+  margin-bottom: 40px;
+  transition: 0.3s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+.fancy-feature-fourteen .logo-meta.lg {
+  height: 248px;
+}
+.fancy-feature-fourteen .js-tilt-glare {
+  border-radius: 20px;
+}
+.fancy-feature-fourteen .right-side {
+  position: relative;
+  z-index: 1;
+}
+.fancy-feature-fourteen .right-side .shape-one {
+  bottom: -29px;
+  right: -31px;
+  z-index: 1;
+}
+.fancy-feature-fourteen .right-side:before {
+  content: "";
+  position: absolute;
+  width: 590px;
+  height: 590px;
+  border-radius: 50%;
+  top: -8%;
+  left: -7%;
+  background: rgba(89, 156, 255, 0.13);
+  filter: blur(300px);
+  transform: rotate(75deg);
+  z-index: -1;
+}
+.fancy-feature-fourteen .right-side:after {
+  content: "";
+  position: absolute;
+  width: 590px;
+  height: 590px;
+  border-radius: 50%;
+  top: 16%;
+  left: 21%;
+  background: rgba(255, 4, 64, 0.15);
+  filter: blur(300px);
+  transform: rotate(75deg);
+  z-index: -2;
+}

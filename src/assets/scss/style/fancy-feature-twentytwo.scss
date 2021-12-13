@@ -1,0 +1,38 @@
+
+/*----------------- Fancy Feature Twenty Two -------------------*/
+.block-style-twentyTwo {
+  text-align: center;
+  background: #fff;
+  padding: 50px 35px;
+  margin-top: 45px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 6px;
+  @media screen and (max-width: 991px) {
+    box-shadow: 0px 30px 80px rgba(0, 57, 110, 0.05);
+  }
+}
+.block-style-twentyTwo:hover {
+  box-shadow: 0px 30px 80px rgba(0, 57, 110, 0.05);
+}
+.block-style-twentyTwo .icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.block-style-twentyTwo h4 {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 26px 0;
+}
+.block-style-twentyTwo .arrow-icon {
+  margin-top: 30px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  @media screen and (max-width: 991px) {
+    opacity: 1;
+  }
+}
+.block-style-twentyTwo:hover .arrow-icon {
+  opacity: 1;
+}

@@ -1,0 +1,52 @@
+
+/*-------------Fancy Feature Eight -----------*/
+.fancy-feature-eight .bg-wrapper {
+  position: relative;
+  z-index: 5;
+  background: #fff;
+  padding: 35px 0 42px;
+}
+.fancy-feature-eight .bg-wrapper:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 24px;
+  background: url(../../images/shape/97.svg) no-repeat center top;
+  left: 0;
+  top: -20px;
+}
+.fancy-feature-eight .bg-wrapper:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 13px;
+  background: url(../../images/shape/98.svg) no-repeat center bottom;
+  left: 0;
+  bottom: -10px;
+}
+.block-style-thirteen {
+  position: relative;
+  text-align: center;
+  padding: 32px 40px 20px;
+}
+.block-style-thirteen.style-border {
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+}
+.block-style-thirteen .icon {
+  height: 70px;
+}
+.block-style-thirteen .icon img {
+  margin: 0 auto;
+  max-height: 100%;
+}
+.block-style-thirteen .title {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.63);
+  padding: 15px 0 20px;
+}
+.block-style-thirteen p {
+  font-size: 24px;
+  line-height: 1.45em;
+  color: #000;
+}

@@ -1,0 +1,31 @@
+
+/*=======================================================================
+                              Product landing / Website Builder      
+=========================================================================*/
+/*-------------------- Menu ---------------*/
+.theme-main-menu.sticky-menu.fixed.theme-menu-seven {
+  background: #242424;
+}
+.theme-menu-seven .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  margin: 0 25px;
+  color: #fff;
+}
+.theme-menu-seven .navbar-nav .nav-item .nav-link.active {
+  text-decoration: underline;
+}
+.theme-menu-seven .right-widget .signIn-action {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 46px;
+  color: #fff;
+  margin-right: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.theme-menu-seven .right-widget .signIn-action:hover {
+  text-decoration: underline;
+}
+.theme-menu-seven .right-widget .signIn-action img {
+  margin-right: 12px;
+  margin-top: -3px;
+}

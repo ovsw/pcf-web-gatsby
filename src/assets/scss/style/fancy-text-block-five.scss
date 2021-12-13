@@ -1,0 +1,47 @@
+
+/*---------------- Fancy Text block Five -------------*/
+.fancy-text-block-five {
+  position: relative;
+  z-index: 5;
+}
+.fancy-text-block-five:before {
+  content: url(../../images/assets/ils_03.svg);
+  position: absolute;
+  top: 150px;
+  left: 7%;
+  z-index: -1;
+  animation: jumpTwo 10s infinite linear;
+}
+.block-style-four {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 25px 30px 20px 40px;
+  margin-top: 35px;
+  transition: all 0.3s ease-in-out;
+}
+.block-style-four:hover {
+  box-shadow: 0 25px 60px rgba(12, 28, 65, 0.05);
+  border-color: #fff;
+  transform: translateY(-5px);
+}
+.block-style-four .icon {
+  height: 75px;
+}
+.block-style-four h4 {
+  font-family: "gilroy-bold";
+  font-size: 24px;
+  padding: 9px 0 20px;
+}
+.block-style-four p {
+  font-size: 17px;
+  line-height: 1.64em;
+}
+.block-style-four a {
+  font-size: 30px;
+  color: #303030;
+  margin-top: 30px;
+}
+.block-style-four:hover a {
+  color: var(--blue-dark);
+}

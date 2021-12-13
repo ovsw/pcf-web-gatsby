@@ -1,0 +1,68 @@
+
+/*----------------- Fancy Feature Twenty Six -------------------*/
+.fancy-feature-twentySix .row {
+  margin: 0 -20px;
+}
+.fancy-feature-twentySix .row [class*="col-"] {
+  padding: 0 20px;
+}
+.block-style-twentySix {
+  padding: 65px 45px 52px;
+  position: relative;
+  &.color-variatin-one {
+    background: #e8fbff;
+    h6 {
+      color: #8bbdc8;
+    }
+    a {
+      border-color: #c0e9f2;
+    }
+  }
+  &.color-variatin-two {
+    background: #ffefe7;
+    h6 {
+      color: #dcac91;
+    }
+    a {
+      border-color: #f5d1bd;
+    }
+  }
+}
+.block-style-twentySix .shape-one {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+}
+.block-style-twentySix .shape-two {
+  top: 0;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+}
+.block-style-twentySix h6 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+.block-style-twentySix h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.5em;
+  margin-bottom: 35px;
+}
+.block-style-twentySix .try-btn {
+  width: 145px;
+  line-height: 41px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.block-style-twentySix .try-btn:hover {
+  background: #212121;
+  color: #fff;
+}

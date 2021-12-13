@@ -1,0 +1,61 @@
+
+/*-------------- Feature Blog One -------------*/
+.feature-blog-one .header .title-style-one {
+  max-width: 560px;
+}
+.feature-blog-one .row [class*="col-"] {
+  display: flex;
+}
+.feature-blog-one .post-meta {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  margin-bottom: 50px;
+  padding: 20px 20px 80px;
+  position: relative;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+.feature-blog-one .post-meta .image-meta {
+  width: 100%;
+  border-radius: 5px;
+}
+.feature-blog-one .post-meta .tag {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: rgba(10, 10, 10, 0.54);
+  padding: 25px 0 3px;
+}
+.feature-blog-one .post-meta .title {
+  font-family: "gilroy-bold";
+  font-size: 30px;
+  line-height: 1.2em;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.feature-blog-one .post-meta {
+  &:hover {
+    transform: translateY(-10px);
+  }
+  a.title {
+    &:hover {
+      color: var(--blue-dark);
+    }
+  }
+}
+.feature-blog-one .post-meta .read-more {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  &:hover {
+    color: var(--blue-dark);
+  }
+}
+.feature-blog-one .post-meta .read-more i {
+  font-size: 22px;
+}

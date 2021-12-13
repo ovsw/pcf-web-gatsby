@@ -1,0 +1,123 @@
+/*------------------ Fancy Short Banner One ----------------*/
+.fancy-short-banner-one {
+  position: relative;
+  z-index: 3;
+  background: linear-gradient(45deg, #fffbf2, #edfffd);
+  padding: 235px 0 170px;
+}
+.fancy-short-banner-one.space-fix {
+  padding: 170px 0 170px;
+}
+.fancy-short-banner-one:before,
+.fancy-short-banner-one:after {
+  content: url(../../images/shape/10.svg);
+  position: absolute;
+  opacity: 0.9;
+}
+.fancy-short-banner-one:before {
+  top: -133px;
+  left: 0;
+  animation: jumpTwo 4s infinite linear;
+}
+.fancy-short-banner-one:after {
+  bottom: -133px;
+  right: 0;
+  animation: jumpThree 4s infinite linear;
+}
+
+.fancy-short-banner-one .form-wrapper {
+  padding-left: 65px;
+}
+.fancy-short-banner-one .form-wrapper form {
+  position: relative;
+}
+.fancy-short-banner-one .form-wrapper form input {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  width: calc(100% - 180px);
+  border: none;
+  border-bottom: 2px solid #545454;
+  height: 50px;
+  background: transparent;
+}
+.fancy-short-banner-one .form-wrapper form button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  background: var(--blue-dark);
+  box-shadow: 0 15px 30px rgba(139, 110, 209, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.fancy-short-banner-one .form-wrapper form button:hover {
+  background: #ffba12;
+  box-shadow: 0px 15px 30px rgba(255, 186, 18, 0.2);
+}
+.fancy-short-banner-one .form-wrapper p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+.fancy-short-banner-one .form-wrapper p a {
+  color: var(--blue-dark);
+}
+.fancy-short-banner-one .form-wrapper p a:hover {
+  text-decoration: underline;
+}
+.fancy-short-banner-one [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.fancy-short-banner-one .bubble-one {
+  width: 17px;
+  height: 17px;
+  background: #ff6cc4;
+  top: 13%;
+  left: 41%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-short-banner-one .bubble-two {
+  width: 7px;
+  height: 7px;
+  background: #51fcff;
+  top: 29%;
+  right: 11%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-short-banner-one .bubble-three {
+  width: 20px;
+  height: 20px;
+  background: #ffba65;
+  bottom: -10px;
+  right: 29%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-short-banner-one .bubble-four {
+  width: 8px;
+  height: 8px;
+  background: #6aee90;
+  bottom: 22%;
+  left: 42%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-short-banner-one .bubble-five {
+  width: 25px;
+  height: 25px;
+  background: #b183ff;
+  bottom: -12px;
+  left: 12%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-short-banner-one .bubble-six {
+  width: 8px;
+  height: 8px;
+  background: #ffcd8b;
+  top: 32%;
+  left: 14%;
+  animation: scale-up-three 4s infinite linear;
+}

@@ -1,0 +1,73 @@
+
+/*----------------- Block Style Thirty Three -------------------*/
+.block-style-thirtyThree .icon {
+  height: 40px;
+}
+.block-style-thirtyThree .title {
+  font-family: "gilroy-bold";
+  font-size: 24px;
+  margin: 25px 0;
+  display: inline-block;
+  position: relative;
+}
+.block-style-thirtyThree .title:before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: var(--yellow-deep);
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+.block-style-thirtyThree p {
+  font-size: 17px;
+  line-height: 30px;
+  color: #515151;
+}
+
+// second file 
+
+
+/*-------------------- Fancy Feature Thirty Three --------------------*/
+.fancy-feature-thirtyThree .contact-title {
+  font-size: 58px;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+.block-style-thirtyFour {
+  position: relative;
+  overflow: hidden;
+  margin-top: 35px;
+}
+.block-style-thirtyFour .hover-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 90px 35px 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  z-index: 1;
+}
+.block-style-thirtyFour .hover-content h4 a {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.45em;
+  letter-spacing: -0.5px;
+}
+.block-style-thirtyFour .hover-content .arrow {
+  font-size: 38px;
+  color: #fff;
+  margin-top: 20px;
+}
+.block-style-thirtyFour:hover .hover-content h4 a {
+  text-decoration: underline;
+}
+.block-style-thirtyFour:hover > img {
+  transform: scale3d(1.1, 1.1, 1);
+}

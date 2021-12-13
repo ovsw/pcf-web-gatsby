@@ -1,0 +1,111 @@
+
+/*---------------------Theme Hero Banner / Twelve ---------------*/
+.hero-banner-twelve {
+  background: #1f1f1f;
+  position: relative;
+  z-index: 1;
+  padding: 205px 0 0;
+}
+.hero-banner-twelve:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 11%;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: -1;
+}
+.hero-banner-twelve .hero-heading {
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1em;
+  letter-spacing: -1px;
+}
+.hero-banner-twelve .hero-sub-heading {
+  font-size: 23px;
+  color: #fff;
+  padding: 45px 0 55px;
+}
+.hero-banner-twelve .get-start-btn {
+  line-height: 56px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 0 40px;
+  transition: all 0.3s ease-in-out;
+}
+.hero-banner-twelve .get-start-btn:hover {
+  background: #ff006b;
+  border-color: #ff006b;
+}
+.hero-banner-twelve .screen-holder {
+  background: rgba(255, 255, 255, 0.19);
+  border-radius: 30px;
+  padding: 40px;
+  position: relative;
+  margin-top: 80px;
+}
+.hero-banner-twelve .screen-holder .img-meta {
+  width: 100%;
+  border-radius: 20px;
+}
+.hero-banner-twelve .screen-holder .shape-one {
+  left: -9%;
+  bottom: -13%;
+  width: 23.55%;
+  animation: jumpThree 6s infinite linear;
+}
+.hero-banner-twelve .screen-holder .shape-two {
+  right: -6%;
+  top: -8%;
+  z-index: 1;
+  width: 13%;
+  animation: jumpTwo 6s infinite linear;
+}
+.hero-banner-twelve .screen-holder .screen-one {
+  z-index: 1;
+  border-radius: 15px;
+  top: 23%;
+  left: -9%;
+  width: 21.96%;
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.1);
+  animation: jumpTwo 6s infinite linear;
+}
+.hero-banner-twelve .screen-holder .screen-two {
+  z-index: 1;
+  border-radius: 10px;
+  bottom: -10%;
+  right: -10%;
+  width: 20.76%;
+  animation: jumpThree 6s infinite linear;
+  box-shadow: 15px 25px 50px rgba(16, 44, 78, 0.05);
+}
+.hero-banner-twelve .shape-three {
+  top: 15%;
+  left: 15%;
+}
+.hero-banner-twelve .shape-four {
+  top: 30%;
+  left: 8%;
+}
+.hero-banner-twelve .shape-five {
+  top: 44%;
+  left: 16%;
+}
+.hero-banner-twelve .shape-six {
+  top: 16%;
+  right: 20%;
+}
+.hero-banner-twelve .shape-seven {
+  top: 30%;
+  right: 9%;
+}
+.hero-banner-twelve .shape-eight {
+  top: 44%;
+  right: 20%;
+}

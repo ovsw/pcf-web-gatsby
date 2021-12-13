@@ -1,0 +1,285 @@
+
+/*----------------- Documentation ------------------*/
+.doc-container.full-width {
+  padding: 0 45px;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.doc-container.top-border {
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+  margin-top: 150px;
+}
+.doc-container.top-border .doc-main-body,
+.doc-container.top-border .doc-sidebar,
+.doc-container.top-border .doc-sideNav {
+  padding-top: 50px;
+}
+.doc-sidebar {
+  border-right: 1px solid rgba(0, 0, 0, 0.09);
+  height: 100vh;
+  position: sticky;
+  top: 90px;
+}
+.doc-sidebar .search-form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.doc-sidebar .search-form form {
+  position: relative;
+  height: 50px;
+}
+.doc-sidebar .search-form form input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #2a2a2a;
+  padding: 0 15px 0 50px;
+}
+.doc-sidebar .search-form form button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+}
+.doc-sidebar .search-form form button img {
+  margin: 0 auto;
+}
+#doc-sidebar-nav {
+  max-height: 100vh;
+  overflow-y: auto;
+  padding-right: 45px;
+}
+.doc-sidebar .list-item > li {
+  border-bottom: 2px solid #000;
+  padding: 18px 0;
+}
+.doc-sidebar .list-item > li:first-child {
+  padding-top: 0;
+}
+.doc-sidebar .list-item li .sub-menu {
+  padding-bottom: 15px;
+}
+.doc-sidebar .list-item li h4 {
+  font-family: "gilroy-semibold";
+  display: block;
+  position: relative;
+  line-height: 44px;
+  font-size: 24px;
+  color: #2a2a2a;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+.doc-sidebar .list-item li h4 .expander {
+  position: absolute;
+  background: transparent;
+  line-height: 50px;
+  right: 0;
+  top: 0;
+  color: inherit;
+  font-size: 12px;
+}
+.doc-sidebar .list-item li .sub-menu a,
+.doc-sidebar-menu .card .sub-menu a {
+  font-size: 16px;
+  line-height: 36px;
+  color: #2a2a2a;
+  display: block;
+  padding: 0 15px;
+  transition: all 0.3s ease-in-out;
+}
+.doc-sidebar .list-item li .sub-menu a.active,
+.doc-sidebar-menu .card .sub-menu .active {
+  background: #000;
+  color: #fff;
+  line-height: 32px;
+  text-decoration: none;
+}
+.doc-sidebar .list-item li .sub-menu a.sec-menu {
+  position: relative;
+}
+.doc-sidebar .list-item li .sub-menu a.sec-menu:before {
+  content: "";
+  position: absolute;
+  font-family: "font-awesome";
+  right: 10px;
+  top: 0;
+  line-height: 32px;
+  color: #000;
+}
+.doc-sidebar .list-item li .sub-menu .main-side-nav {
+  margin-top: 10px;
+}
+.doc-sidebar .list-item li .sub-menu .main-side-nav a {
+  margin-left: 15px;
+}
+.doc-sidebar .list-item li .sub-menu a:hover,
+.doc-sidebar-menu .card .sub-menu a:hover {
+  text-decoration: underline;
+}
+.doc-sidebar ul .sub-menu {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+.doc-sidebar ul .sub-menu.show {
+  display: block;
+}
+.doc-sidebar ul .sub-menu.open {
+  display: block;
+}
+
+.doc-container .doc-main-body {
+  padding-left: 50px;
+  padding-bottom: 65px;
+}
+.doc-container.full-width .doc-main-body {
+  border-right: 1px solid rgba(0, 0, 0, 0.09);
+  padding-right: 50px;
+}
+.doc-container .doc-main-body h2 {
+  font-family: "gilroy-black";
+  font-size: 42px;
+  padding-bottom: 25px;
+}
+.doc-container .doc-main-body h3 {
+  font-family: "gilroy-semibold";
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+.doc-container .doc-main-body h3:not(:first-child) {
+  padding-top: 20px;
+}
+.doc-container .doc-main-body p {
+  color: #2a2a2a;
+  padding-bottom: 30px;
+}
+.doc-container .doc-main-body p code {
+  background: #f0f3f9;
+  border-radius: 4px;
+}
+.doc-container .doc-main-body .mark-blue {
+  background: #f4fafa;
+  border-left: 4px solid #9cdfc9;
+  border-radius: 0 8px 8px 0;
+  padding: 22px 40px;
+  margin-bottom: 45px;
+}
+.doc-container .doc-main-body .mark-blue pre {
+  font-size: 16px;
+  color: #414141;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.doc-container .doc-main-body .mark-blue code {
+  color: #e83e8c;
+}
+.doc-container .doc-main-body .mark-blue pre .s1 {
+  color: #78d0b6;
+}
+.doc-container .doc-main-body .mark-red {
+  background: #fcfaf3;
+  border-left: 4px solid #fae6bf;
+  border-radius: 0 8px 8px 0;
+  padding: 22px 40px;
+  margin-bottom: 45px;
+}
+.doc-container .doc-main-body .mark-red pre {
+  font-size: 16px;
+  color: #575858;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.doc-container .doc-main-body .mark-red pre .s1 {
+  color: #78d0b6;
+  background: #fff;
+}
+.doc-container .doc-main-body .bg-black {
+  background: #2d2d2d;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  padding: 30px 45px 30px;
+  max-height: 740px;
+  white-space: pre-wrap;
+  color: inherit;
+  font-size: 16px;
+}
+.doc-container .doc-main-body .bg-black code {
+  white-space: pre-wrap;
+}
+.doc-container .doc-main-body .bg-black .s1 {
+  color: #5e5e5e;
+}
+.doc-container .doc-main-body .bg-black .s2 {
+  color: #cacaca;
+}
+.doc-container .doc-main-body .bg-black .s3 {
+  color: #21b787;
+}
+.doc-container .doc-main-body .list-item-one li {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+.doc-container .doc-main-body .list-item-one li:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #000;
+  left: 0;
+  top: 11px;
+}
+.doc-container .doc-main-body .img-meta {
+  margin: 40px auto;
+}
+.doc-pagination ul li a {
+  width: 35px;
+  height: 35px;
+  line-height: 31px;
+  border: 2px solid #000;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 28px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.doc-pagination ul li a:hover {
+  background: #000;
+  color: #fff;
+}
+.doc-pagination ul li span {
+  font-family: "gilroy-semibold";
+  font-size: 22px;
+  color: #000;
+}
+.doc-sideNav .wrapper {
+  padding-left: 40px;
+}
+.doc-sideNav .nav-link {
+  display: block;
+  font-size: 16px;
+  line-height: 36px;
+  color: #767676;
+  padding: 0 15px;
+  transition: all 0.3s ease-in-out;
+}
+.doc-sideNav .nav-link.active {
+  line-height: 32px;
+  background: #000;
+  color: #fff;
+}
+.doc-sideNav {
+  top: 100px;
+  position: sticky;
+  height: 100%;
+}

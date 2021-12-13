@@ -1,0 +1,51 @@
+
+/*----------------- Fancy Text block Twenty One -------------------*/
+.fancy-text-block-twentyOne .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.fancy-text-block-twentyOne .text-wrapper .client-info {
+  font-size: 24px;
+  padding: 36px 0 28px;
+}
+.fancy-text-block-twentyOne .text-wrapper .client-info span {
+  color: #000;
+  text-decoration: underline;
+}
+.fancy-text-block-twentyOne .text-wrapper p {
+  font-size: 48px;
+  color: #000000;
+  line-height: 1.59em;
+  padding-bottom: 40px;
+}
+.fancy-text-block-twentyOne .text-wrapper p span {
+  color: #ff2759;
+  text-decoration: underline;
+}
+.fancy-text-block-twentyOne .text-wrapper .name {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  font-style: italic;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 32px;
+}
+.fancy-text-block-twentyOne .text-wrapper .name:before {
+  content: "";
+  width: 22px;
+  height: 2px;
+  border-radius: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+.fancy-text-block-twentyOne .img-meta {
+  position: relative;
+}
+.fancy-text-block-twentyOne .img-meta .shape-one {
+  bottom: -123px;
+  left: 6px;
+}

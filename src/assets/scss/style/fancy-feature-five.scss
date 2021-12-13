@@ -1,0 +1,68 @@
+
+/*-------------------- Fancy Feature Five -------------------*/
+.fancy-feature-five {
+  padding: 0 70px;
+}
+.fancy-feature-five .bg-wrapper {
+  background: #f2f7ff;
+  border-radius: 10px;
+  padding: 120px 0 140px;
+  position: relative;
+  z-index: 5;
+}
+.block-style-seven {
+  padding: 40px 22px 0;
+  text-align: center;
+}
+.block-style-seven .icon {
+  height: 80px;
+}
+.block-style-seven .icon img {
+  margin: 0 auto;
+  max-height: 100%;
+}
+.block-style-seven .feature-info {
+  color: rgba(0, 0, 0, 0.63);
+  padding: 30px 0 7px;
+}
+.block-style-seven p {
+  font-size: 28px;
+  line-height: 1.35em;
+  color: #000;
+}
+.fancy-feature-five .shape-one {
+  width: 6px;
+  height: 6px;
+  background: #f2dad5;
+  top: 14%;
+  right: 15%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-feature-five .shape-two {
+  width: 12px;
+  height: 12px;
+  background: #f77a56;
+  top: 58%;
+  right: 6%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-feature-five .shape-three {
+  width: 7px;
+  height: 7px;
+  background: #f2dad5;
+  top: 84%;
+  left: 7%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-feature-five .shape-four {
+  width: 8px;
+  height: 8px;
+  background: #f77a56;
+  top: 27%;
+  left: 8%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-feature-five .shape-five {
+  bottom: 0;
+  right: 0;
+}

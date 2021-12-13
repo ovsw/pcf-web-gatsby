@@ -1,0 +1,97 @@
+
+/*--------------- Fancy Short Banner Seven --------------*/
+.fancy-short-banner-seven {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.fancy-short-banner-seven .ios-button {
+  width: 200px;
+  height: 65px;
+  padding: 0 5px 0 25px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  margin: 45px auto 0;
+}
+.fancy-short-banner-seven .ios-button:after {
+  content: url(../../images/shape/161.svg);
+  position: absolute;
+  right: -107px;
+  bottom: -28px;
+}
+.fancy-short-banner-seven .ios-button .icon {
+  margin-right: 15px;
+}
+.fancy-short-banner-seven .ios-button span {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+  display: block;
+  margin-bottom: -11px;
+  margin-top: -5px;
+}
+.fancy-short-banner-seven .ios-button strong {
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+}
+.fancy-short-banner-seven .video-button span {
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 14px;
+  transition: all 0.3s ease;
+}
+.fancy-short-banner-seven .screen-meta {
+  position: relative;
+  margin-top: 95px;
+  z-index: 1;
+}
+.fancy-short-banner-seven .screen-meta:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    #0f1123 0%,
+    rgba(15, 17, 35, 0.89) 24.08%,
+    rgba(14, 16, 31, 0) 81.75%
+  );
+  top: -50px;
+  left: 0;
+  right: 0;
+  bottom: -100px;
+  z-index: 2;
+}
+.fancy-short-banner-seven .shape-one {
+  left: 15%;
+  top: 36%;
+  z-index: 3;
+  animation: jumpTwo 3s infinite linear;
+}
+.fancy-short-banner-seven .shape-two {
+  right: 17%;
+  top: 36%;
+  z-index: 3;
+  animation: jumpThree 3s infinite linear;
+}
+.fancy-short-banner-seven .shape-three {
+  left: 29%;
+  bottom: -14%;
+  z-index: 3;
+  animation: jumpTwo 3s infinite linear;
+}
+.fancy-short-banner-seven .shape-four {
+  left: 10%;
+  top: -7%;
+  z-index: 3;
+}
+.fancy-short-banner-seven .shape-five {
+  right: -6%;
+  bottom: -35%;
+  z-index: 3;
+}
+.fancy-short-banner-seven .js-tilt-glare-inner {
+  background: transparent;
+  background-image: none !important;
+}

@@ -1,0 +1,148 @@
+
+/*----------------- Pricing Section Four ----------------*/
+.pricing-nav-three {
+  margin: 60px 0 100px;
+  border: none;
+}
+.pricing-nav-three .nav-item {
+  margin: 0;
+}
+.pricing-nav-three .nav-item .nav-link,
+.pricing-nav-three .react-tabs__tab {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 61px;
+  border: 2px solid #000;
+  padding: 0 15px;
+  width: 150px;
+  text-align: center;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.pricing-nav-three .nav-item:nth-child(1) .nav-link,
+.pricing-nav-three .react-tabs__tab:first-child {
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+}
+.pricing-nav-three .nav-item:nth-child(2) .nav-link,
+.pricing-nav-three .react-tabs__tab:last-child {
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+}
+.pricing-nav-three .nav-item .nav-link.active,
+.pricing-nav-three .react-tabs__tab.react-tabs__tab--selected {
+  background: #000;
+  color: #fff;
+}
+.pricing-table-area-four {
+  max-width: 1350px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.pricing-table-area-four .row {
+  margin: 0 -30px;
+}
+.pricing-table-area-four .row [class*="col-"] {
+  padding: 0 30px;
+}
+.pricing-table-area-four .pr-table-wrapper {
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  padding: 25px 35px 35px;
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.pricing-table-area-four .pr-table-wrapper:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  border: 2px solid #000;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-table-area-four .pr-table-wrapper.most-popular:after {
+  content: url(../../images/shape/populer-tag.svg);
+  position: absolute;
+  top: -97px;
+  right: -87px;
+}
+.pricing-table-area-four .pr-table-wrapper .pack-name {
+  font-weight: 500;
+  font-size: 28px;
+  color: #000;
+}
+.pricing-table-area-four .pr-table-wrapper .pack-details {
+  color: #878787;
+  padding: 5px 0 45px;
+}
+.pricing-table-area-four .pr-table-wrapper .top-banner {
+  padding: 9px 5px 15px 22px;
+  color: #000;
+  text-align: left;
+}
+.pricing-table-area-four .pr-table-wrapper .price {
+  font-size: 40px;
+  font-weight: 500;
+  padding: 25px 20px 0 0;
+}
+.pricing-table-area-four .pr-table-wrapper .price sup {
+  font-size: 20px;
+  top: -22px;
+}
+.pricing-table-area-four .pr-table-wrapper .top-banner span {
+  font-size: 22px;
+}
+.pricing-table-area-four .pr-table-wrapper .top-banner em {
+  font-size: 14px;
+  font-style: normal;
+  display: block;
+  margin-top: -7px;
+}
+.pricing-table-area-four .pr-table-wrapper .pr-feature {
+  text-align: left;
+  padding: 38px 0 60px 20px;
+}
+.pricing-table-area-four .pr-table-wrapper .pr-feature li {
+  position: relative;
+  line-height: 42px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-left: 30px;
+}
+.pricing-table-area-four .pr-table-wrapper .pr-feature li:before {
+  content: url(../../images/icon/76.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pricing-table-area-four .pr-table-wrapper .trial-button {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  line-height: 52px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-table-area-four .pr-table-wrapper .trial-text {
+  font-size: 16px;
+  padding-top: 20px;
+}
+.pricing-table-area-four .pr-table-wrapper:hover:before,
+.pricing-table-area-four .pr-table-wrapper.active:before {
+  opacity: 1;
+}
+.pricing-table-area-four .pr-table-wrapper .trial-button:hover,
+.pricing-table-area-four .pr-table-wrapper.active .trial-button {
+  background: #000;
+  color: #fff;
+}

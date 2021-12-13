@@ -1,0 +1,73 @@
+
+/*------------------- FAQ Section -------------------*/
+.accordion-style-three .card {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #000000 !important;
+}
+.accordion-style-three .card .card-header {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+.accordion-style-three .card .card-header button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 35px 35px 35px 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  color: var(--heading);
+  text-decoration: none;
+  position: relative;
+  border-bottom: 1px solid transparent;
+}
+.accordion-style-three .card:first-child .card-header button {
+  border-top: 1px solid #000000;
+}
+.accordion-style-three .card .card-header button:before {
+  content: "\f107";
+  font-family: "font-awesome";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.accordion-style-three .card .card-body {
+  border-bottom: 1px solid #000000;
+  padding: 0 50px 20px 0;
+}
+.accordion-style-three .card .card-body p {
+  padding-bottom: 15px;
+}
+.accordion-style-three .card .card-body p a {
+  text-decoration: underline;
+  color: var(--p-color);
+}
+.accordion-style-three .card:last-child .card-body {
+  border: none;
+  padding-bottom: 0;
+}
+.more-faq-meta h3 {
+  font-size: 36px;
+}
+.more-faq-meta a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 45px;
+  border: 1px solid rgba(255, 122, 81, 0.4);
+  background: rgba(255, 104, 40, 0.07);
+  padding: 0 45px;
+  border-radius: 22px;
+  color: var(--red-light);
+  transition: all 0.3s ease-in-out;
+}
+.more-faq-meta a:hover {
+  background: var(--red-light);
+  color: #fff;
+}

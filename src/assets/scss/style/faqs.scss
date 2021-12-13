@@ -1,0 +1,167 @@
+
+/*---------------------- Faqs -------------------*/
+.faqs-inner-page {
+  background: linear-gradient(45deg, #fffbf2, #edfffd);
+  padding: 170px 0 185px;
+  position: relative;
+  z-index: 5;
+}
+.faqs-header .icon {
+  height: 55px;
+  margin-right: 32px;
+}
+.faqs-header h3 {
+  font-family: "gilroy-semibold";
+  font-size: 36px;
+}
+.faqs-header .collection-preview {
+  font-size: 20px;
+  line-height: 1.6em;
+  padding-bottom: 25px;
+}
+.faqs-header .avatar {
+  margin-top: -7px;
+}
+.faqs-header .avatar img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 3px white;
+  box-shadow: 0 0 0 3px white;
+  position: relative;
+}
+.faqs-header .avatar img:nth-child(n + 2) {
+  z-index: 1;
+  margin-left: -10px;
+}
+.faqs-header .avatar_fallback {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--blue-dark);
+  border: 3px solid #fff;
+  line-height: 42px;
+  color: #fff;
+  font-size: 17px;
+  z-index: 5;
+  margin-left: -10px;
+  text-align: center;
+}
+.faqs-header .collection-info {
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 10px 0 0 0;
+  color: #878787;
+}
+.faqs-header .collection-info span {
+  color: var(--heading);
+  font-weight: 500;
+}
+.all-faqs .faqs-all-qus {
+  margin-bottom: 70px;
+}
+.all-faqs .faqs-all-qus .article-preview {
+  background: #fff;
+  padding: 45px 40px;
+  margin-bottom: 18px;
+  box-shadow: 0 15px 30px rgba(23, 59, 40, 0.05);
+  h3 {
+    transition: 0.3s;
+  }
+  &:hover {
+    h3 {
+      color: var(--blue-dark);
+    }
+  }
+}
+
+.faqs-all-qus .article-preview .avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+.faqs-all-qus .article-preview h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.faqs-all-qus .article-preview .avatar-info {
+  font-size: 16px;
+  line-height: 1.63em;
+  color: #606060;
+}
+.faqs-all-qus .article-preview .avatar-info span {
+  font-weight: 500;
+}
+.faqs-all-qus .article-preview .article-details {
+  border-top: 1px solid #d8d8d8;
+  margin-top: 46px;
+  padding: 38px 0 48px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.faqs-all-qus .article-preview .article-details .list-meta {
+  padding: 31px 0 32px 43px;
+}
+.faqs-all-qus .article-preview .article-details .list-meta li {
+  padding-left: 25px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.faqs-all-qus .article-preview .article-details .list-meta li:before {
+  content: url(../../images/icon/49.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.faqs-all-qus .article-preview .article-details .reaction-wrapper {
+  border: 2px solid #979797;
+  border-radius: 5px;
+  text-align: center;
+  padding: 50px 15px;
+  margin-top: 68px;
+  position: relative;
+  z-index: 1;
+}
+.faqs-all-qus .article-preview .article-details .reaction-wrapper h4 {
+  font-size: 24px;
+  padding-bottom: 24px;
+}
+.faqs-all-qus .article-preview .article-details .reaction-wrapper button {
+  margin: 0 11px;
+  transition: all 0.2s ease-in-out;
+}
+.faqs-all-qus .article-preview .article-details .reaction-wrapper button:hover {
+  transform: translateY(-3px);
+}
+.faqs-inner-page .more-faq-ask h3 {
+  font-size: 36px;
+}
+.faqs-inner-page .shape-one {
+  left: 0;
+  bottom: -140px;
+  animation: jumpTwo 5s infinite linear;
+}
+.faqs-inner-page .shape-two {
+  width: 30px;
+  height: 30px;
+  background: #ffdfdf;
+  border-radius: 50%;
+  top: -15px;
+  left: 40%;
+}
+.faqs-inner-page .shape-three {
+  width: 7px;
+  height: 7px;
+  background: #51fcff;
+  border-radius: 50%;
+  top: 190px;
+  right: 9%;
+}
+.faqs-inner-page .shape-four {
+  width: 8px;
+  height: 8px;
+  background: #ffcd8b;
+  border-radius: 50%;
+  top: 211px;
+  left: 12%;
+}

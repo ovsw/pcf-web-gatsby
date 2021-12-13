@@ -1,0 +1,32 @@
+
+/*-------------------- Theme Menu One/Center White ---------------------*/
+.theme-menu-one.center-white {
+  background: transparent;
+}
+.theme-menu-one.center-white.sticky-menu.fixed {
+  background: #161616;
+}
+.theme-menu-one.center-white .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  margin: 0 25px;
+  color: #fff;
+}
+.theme-menu-one.center-white .logo {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.theme-menu-one.center-white .right-button-group {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin: 0;
+  transform: translateY(-50%);
+}
+.theme-menu-one.center-white .navbar {
+  position: static;
+}
+.theme-menu-one.center-white .right-button-group a {
+  color: #fff;
+}

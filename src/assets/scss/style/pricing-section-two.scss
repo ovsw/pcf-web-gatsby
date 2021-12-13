@@ -1,0 +1,107 @@
+
+/*--------------------- Pricing Section Two -----------------*/
+.pricing-nav-two {
+  margin: 40px 0 20px;
+  border: none;
+}
+.pricing-nav-two .nav-item {
+  margin: 0;
+}
+.pricing-nav-two .nav-item .nav-link,
+.pricing-nav-two .react-tabs__tab {
+  font-family: "Rubik", sans-serif;
+  line-height: 50px;
+  border: 2px solid var(--red-light);
+  padding: 0 15px;
+  width: 172px;
+  text-align: center;
+  color: var(--red-light);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-nav-two .nav-item:nth-child(1) .nav-link,
+.pricing-nav-two:nth-child(1) .react-tabs__tab {
+  border-radius: 3px 0 0 3px;
+}
+.pricing-nav-two .nav-item:nth-child(2) .nav-link,
+.pricing-nav-two #react-tabs-2 {
+  border-radius: 0 3px 3px 0;
+}
+.pricing-nav-two .nav-item .nav-link.active,
+.pricing-nav-two .react-tabs__tab.react-tabs__tab--selected {
+  background: var(--red-light);
+  color: #fff;
+}
+.pricing-section-two .pricing-table-area {
+  position: relative;
+  margin-top: -280px;
+  z-index: 6;
+  border: 1px solid #f1f1f1;
+  border-right: none;
+}
+.pricing-section-two .pricing-table-area .tab-content {
+  background: #fff;
+}
+.pricing-section-two .pricing-table-area .pr-bg {
+  border-right: 1px solid #f1f1f1;
+}
+.pricing-section-two .pr-table-wrapper {
+  text-align: center;
+  padding: 20px 0 40px;
+  width: 100%;
+}
+.pricing-section-two .pr-table-wrapper .pack-name {
+  font-family: "gilroy-semibold";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #202020;
+  letter-spacing: 2.1px;
+}
+.pricing-section-two .pr-table-wrapper .price {
+  font-family: "gilroy-semibold";
+  font-size: 72px;
+  color: #000;
+  padding: 44px 0 20px;
+}
+.pricing-section-two .pr-table-wrapper .price sup {
+  font-size: 25px;
+  top: -45px;
+}
+.pricing-section-two .pr-table-wrapper .bill-cycle {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 22px;
+}
+.pricing-section-two .pr-table-wrapper .theme-btn-three {
+  line-height: 42px;
+  padding: 0 40px;
+}
+.pricing-section-two .pr-table-wrapper .pr-feature {
+  text-align: left;
+  border-top: 1px solid #e8e8e8;
+  padding: 34px 0 0 26px;
+  margin: 35px 0 0;
+}
+.pricing-section-two .pr-table-wrapper .pr-feature li {
+  font-size: 17px;
+  line-height: 39px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-left: 26px;
+  position: relative;
+}
+.pricing-section-two .pr-table-wrapper .pr-feature li:before {
+  content: url(../../images/icon/43.svg);
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.pricing-section-two .pricing-table-area .shape-one {
+  left: -7%;
+  top: -7%;
+  animation: jumpTwo 5s infinite linear;
+}
+.pricing-section-two .pricing-table-area .shape-two {
+  right: -7%;
+  bottom: -9%;
+  animation: rotatedTwo 50s infinite linear;
+}

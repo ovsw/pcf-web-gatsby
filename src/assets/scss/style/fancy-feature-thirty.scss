@@ -1,0 +1,55 @@
+
+/*-------------------- Fancy Feature Thirty --------------------*/
+.fancy-feature-thirty {
+  padding: 0 10px;
+}
+.fancy-feature-thirty .wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 85px 10px 105px;
+  position: relative;
+  background: #f5fafd;
+  border-radius: 30px;
+}
+.fancy-feature-thirty .wrapper .shape-one {
+  right: -55px;
+  top: -65px;
+  animation: jumpThree 6s infinite linear;
+}
+.fancy-feature-thirty .wrapper .shape-two {
+  left: -45px;
+  bottom: -70px;
+  animation: jumpTwo 6s infinite linear;
+}
+.block-style-thirtyTwo {
+  padding: 45px 55px 35px 30px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.block-style-thirtyTwo .icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.block-style-thirtyTwo .text {
+  width: calc(100% - 55px);
+  padding-left: 32px;
+}
+.block-style-thirtyTwo .text h4 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.block-style-thirtyTwo .text p {
+  font-size: 17px;
+  line-height: 1.6em;
+  padding: 22px 0;
+}
+.block-style-thirtyTwo .text .theme-btn-ten {
+  font-size: 15px;
+  padding-bottom: 0;
+}
+.block-style-thirtyTwo .text .theme-btn-ten .fa {
+  font-size: 10px;
+  margin-left: 2px;
+}

@@ -1,0 +1,24 @@
+/*----------------- Counter Info Standard --------------*/
+.counter-info-standard {
+  border-bottom: 1px solid #efefef;
+}
+.counter-box-two {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.counter-box-two .number {
+  font-size: 80px;
+  color: var(--blue-dark);
+}
+.counter-box-two em {
+  font-size: 20px;
+  display: block;
+  color: #8e8e8e;
+  font-style: normal;
+}
+.counter-box-two p {
+  font-size: 28px;
+  line-height: 1.35em;
+  color: #212121;
+  padding-top: 20px;
+}

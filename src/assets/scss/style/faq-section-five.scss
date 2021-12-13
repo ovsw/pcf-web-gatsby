@@ -1,0 +1,54 @@
+
+/*-------------------- Faq Section Five --------------------*/
+.accordion-style-five .card {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion-style-five .card .card-header {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+.accordion-style-five .card .card-header button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 30px 35px 30px 0;
+  font-size: 21px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  color: var(--heading);
+  text-decoration: none;
+  position: relative;
+  border-top: 1px solid #e5e5e5;
+}
+.accordion-style-five .card:first-child .card-header button {
+  border-top: 1px solid #e5e5e5;
+}
+.accordion-style-five .card .card-header button:before {
+  content: "\f107";
+  font-family: "font-awesome";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.accordion-style-five .card .card-body {
+  padding: 0 50px 20px 0;
+}
+.accordion-style-five .card .card-body p {
+  padding-bottom: 15px;
+}
+.accordion-style-five .card .card-body p a {
+  text-decoration: underline;
+  color: var(--p-color);
+}
+.accordion-style-five .card:last-child .card-body {
+  border: none;
+  padding-bottom: 0;
+}

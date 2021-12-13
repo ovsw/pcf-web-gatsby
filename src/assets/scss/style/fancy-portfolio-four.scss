@@ -1,0 +1,14 @@
+
+/*-------------------- Fancy Portfolio Four ---------------------*/
+.fancy-portfolio-four .mix {
+  width: 33.33333%;
+}
+.contact-title {
+  font-weight: 500;
+  line-height: 1.34em;
+  font-size: 55px;
+  letter-spacing: -1px;
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+}

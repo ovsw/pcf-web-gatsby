@@ -1,0 +1,54 @@
+
+/*-------------------- Fancy Hero Five ---------------------*/
+.fancy-hero-five {
+  background: #f7faff;
+  padding: 220px 0 130px;
+  position: relative;
+  z-index: 5;
+}
+.fancy-hero-five .page-title {
+  font-size: 20px;
+  color: #b1b1b1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.fancy-hero-five .heading {
+  font-family: "gilroy-black";
+  font-size: 80px;
+  line-height: 1.08em;
+}
+.fancy-hero-five span {
+  position: relative;
+  z-index: 1;
+}
+.fancy-hero-five span img {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.fancy-hero-five .sub-heading {
+  font-size: 24px;
+  line-height: 1.58em;
+  color: #2a2a2a;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.fancy-hero-five .sub-heading.space-xs {
+  padding: 15px 0 0;
+}
+.fancy-hero-five .img-meta {
+  bottom: -250px;
+  right: 33px;
+  position: absolute;
+}
+.fancy-hero-five .shape-one {
+  right: 0;
+  top: 24%;
+}
+.fancy-hero-five .shape-two {
+  left: 0;
+  top: 28%;
+}

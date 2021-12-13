@@ -1,0 +1,44 @@
+
+/*------------------ Fancy Text Block Fourteen ---------------*/
+.fancy-text-block-fourteen .text-wrapper .sub-text {
+  font-size: 24px;
+  line-height: 1.58em;
+  color: #0e0e0e;
+  padding-top: 40px;
+}
+.fancy-text-block-fourteen .text-wrapper .name {
+  font-family: "gilroy-bold";
+  font-size: 24px;
+  color: #000;
+  position: relative;
+  padding-left: 28px;
+  margin-top: 40px;
+}
+.fancy-text-block-fourteen .text-wrapper .name span {
+  font-family: "gilroy-semibold";
+  color: #8a8a8a;
+}
+.fancy-text-block-fourteen .text-wrapper .name:before {
+  content: "";
+  width: 18px;
+  height: 3px;
+  border-radius: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+.fancy-text-block-fourteen .img-holder {
+  position: relative;
+  padding: 0 50px 0 60px;
+}
+.fancy-text-block-fourteen .img-holder .shape-one {
+  right: 0;
+  top: -10%;
+}
+.fancy-text-block-fourteen .img-holder .shape-two {
+  left: -1%;
+  top: -12%;
+  z-index: 1;
+  animation: jumpTwo 5s infinite linear;
+}

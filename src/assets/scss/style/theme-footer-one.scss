@@ -1,0 +1,187 @@
+/*------------------ Footer One --------------*/
+.footer-bg-wrapper {
+  position: relative;
+  padding-top: 230px;
+}
+.footer-bg-wrapper:before {
+  content: url(../../images/shape/11.svg);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.footer-bg-wrapper [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.footer-bg-wrapper .bubble-one {
+  width: 25px;
+  height: 25px;
+  background: #ff6cc4;
+  top: 4%;
+  left: 26%;
+  animation: scale-up-one 4s infinite linear;
+}
+.footer-bg-wrapper .bubble-two {
+  width: 14px;
+  height: 14px;
+  background: #ffbe50;
+  top: 48%;
+  left: 10%;
+  animation: scale-up-one 4s infinite linear;
+}
+.footer-bg-wrapper .bubble-three {
+  width: 7px;
+  height: 7px;
+  background: #04e8f4;
+  bottom: 18%;
+  left: 20%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-short-banner-two .content-wrapper {
+  position: relative;
+}
+.fancy-short-banner-two .content-wrapper:before {
+  content: url(../../images/shape/12.svg);
+  position: absolute;
+  top: -117px;
+  right: -117px;
+  z-index: -1;
+  opacity: 0.9;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-short-banner-two .bg-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #7034ff;
+  box-shadow: 0 20px 60px 0 rgba(104, 103, 255, 0.2);
+  border-radius: 5px;
+  padding: 50px 55px;
+  z-index: 1;
+}
+.fancy-short-banner-two h2 {
+  font-size: 36px;
+  line-height: 1.16em;
+  color: #fff;
+  max-width: 560px;
+}
+.fancy-short-banner-two a {
+  width: 178px;
+  line-height: 54px;
+  background: #fff;
+  border-radius: 5px;
+  color: var(--blue-dark);
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.fancy-short-banner-two a:hover {
+  background: #ffba12;
+  color: #fff;
+}
+.fancy-short-banner-two [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.fancy-short-banner-two .bubble-one {
+  width: 13px;
+  height: 13px;
+  background: rgba(216, 216, 216, 0.14);
+  top: 27%;
+  left: 60%;
+  animation: scale-up-one 4s infinite linear;
+}
+.fancy-short-banner-two .bubble-two {
+  width: 6px;
+  height: 6px;
+  background: rgba(216, 216, 216, 0.14);
+  top: 62%;
+  right: 28%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-short-banner-two .bubble-three {
+  width: 5px;
+  height: 5px;
+  background: rgba(216, 216, 216, 0.14);
+  bottom: 37%;
+  right: 51%;
+  animation: scale-up-three 4s infinite linear;
+}
+.fancy-short-banner-two .bubble-four {
+  width: 245px;
+  height: 245px;
+  background: rgba(216, 216, 216, 0.14);
+  top: -103px;
+  right: -70px;
+  animation: jello 3s infinite linear;
+}
+.fancy-short-banner-two .bubble-five {
+  width: 68px;
+  height: 68px;
+  background: rgba(216, 216, 216, 0.14);
+  bottom: -24px;
+  left: -28px;
+  animation: jello 3s infinite linear;
+}
+.theme-footer-one {
+  position: relative;
+}
+.theme-footer-one:before {
+  content: url(../../images/assets/ils_01.svg);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.theme-footer-one .top-footer [class*="col-"] {
+  margin-bottom: 30px;
+}
+.theme-footer-one .top-footer .footer-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.theme-footer-one .top-footer .footer-list ul li a {
+  font-size: 16px;
+  line-height: 38px;
+  color: #727272;
+  transition: all 0.3s ease-in-out;
+}
+.theme-footer-one .top-footer .footer-list ul li a:hover {
+  color: var(--blue-dark);
+}
+.theme-footer-one .top-footer .address-list ul li a {
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 10px;
+}
+.theme-footer-one .top-footer .address-list ul li a:hover {
+  text-decoration: underline;
+}
+.theme-footer-one .top-footer .address-list ul li a.mobile-num {
+  font-size: 20px;
+  color: #030303;
+}
+.theme-footer-one .bottom-footer-content ul li {
+  display: inline-block;
+}
+.theme-footer-one .bottom-footer-content ul li a {
+  font-size: 16px;
+  color: #727272;
+  margin-left: 20px;
+}
+.theme-footer-one .bottom-footer-content ul li a:hover {
+  color: #000;
+}
+.theme-footer-one .bottom-footer-content p {
+  font-size: 15px;
+  color: #6a6a6a;
+}
+.theme-footer-one .bottom-footer-content {
+  padding: 26px 0 30px;
+}
+.theme-footer-one .bottom-footer-content ul {
+  padding-right: 97px;
+}

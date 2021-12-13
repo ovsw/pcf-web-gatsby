@@ -1,0 +1,77 @@
+
+/*-------------- Client Feedback Slider Six ----------------*/
+.clientSliderSix {
+  max-width: 1740px;
+  margin: 30px auto 0;
+}
+.clientSliderSix .item {
+  padding: 80px 25px;
+}
+.clientSliderSix .feedback-wrapper {
+  border: 2px solid #e8edf0;
+  border-radius: 10px;
+  background: #fff;
+  padding: 42px 44px 48px 57px;
+  position: relative;
+  z-index: 1;
+
+  transition: all 0.3s ease-in-out;
+}
+.clientSliderSix .feedback-wrapper .ribbon {
+  height: 8px;
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  top: -1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.clientSliderSix .slick-center .feedback-wrapper {
+  border-color: #fff;
+  box-shadow: 0px 35px 60px rgba(14, 29, 45, 0.04);
+}
+.clientSliderSix .feedback-wrapper:before {
+  content: url(../../images/icon/101.svg);
+  position: absolute;
+  bottom: 41px;
+  right: 57px;
+}
+.clientSliderSix .feedback-wrapper p {
+  font-size: 20px;
+  line-height: 38px;
+  color: #000;
+  padding-bottom: 45px;
+}
+.clientSliderSix .feedback-wrapper .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.clientSliderSix .feedback-wrapper .name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.clientSliderSix .feedback-wrapper .name span {
+  font-weight: normal;
+  font-size: 16px;
+  color: #8a8a8a;
+}
+.clientSliderSix .slick-dots {
+  text-align: center;
+}
+.clientSliderSix .slick-dots li {
+  display: inline-block;
+}
+
+.clientSliderSix.style-two .feedback-wrapper .ribbon {
+  top: auto;
+  bottom: -1px;
+  height: 5px;
+  transform: scale(0, 1);
+  border-radius: 0 0 10px 10px;
+  transition: all 0.3s ease-in-out;
+}
+.clientSliderSix.style-two .slick-center .feedback-wrapper .ribbon {
+  transform: scale(1, 1);
+}

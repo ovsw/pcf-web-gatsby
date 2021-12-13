@@ -1,0 +1,41 @@
+
+/*-------------------- Footer Style Eight --------------------*/
+.theme-footer-eight .footer-about-widget ul li a {
+  font-size: 18px;
+  color: #343434;
+  margin-bottom: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.theme-footer-eight .footer-about-widget ul li a.phone {
+  font-size: 20px;
+}
+.theme-footer-eight .footer-about-widget ul li a:hover {
+  text-decoration: underline;
+}
+.theme-footer-eight .footer-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #0e0e0e;
+  position: relative;
+  margin: 5px 0 21px;
+}
+.theme-footer-eight .footer-list ul li a {
+  color: #343434;
+  line-height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+.theme-footer-eight .footer-list ul li a:hover {
+  text-decoration: underline;
+}
+.theme-footer-eight .top-footer [class*="col-"] {
+  margin-bottom: 35px;
+}
+.theme-footer-eight .bottom-footer p {
+  font-size: 16px;
+  color: #373737;
+}
+.theme-footer-eight .bottom-footer .social-icon a {
+  font-size: 20px;
+  margin-left: 15px;
+  color: #323232;
+}

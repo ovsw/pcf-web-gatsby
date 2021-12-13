@@ -1,0 +1,63 @@
+
+/*--------------------- Client Feedback Slider Four ---------------*/
+.client-feedback-slider-four {
+  padding: 0 15px;
+}
+.client-feedback-slider-four .shape-one {
+  top: -69px;
+  left: 11%;
+}
+.client-feedback-slider-four .shape-two {
+  bottom: -42px;
+  right: 9%;
+}
+.client-feedback-slider-four .inner-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #e7f2f2;
+  border-radius: 40px;
+  position: relative;
+  padding: 140px 0;
+  z-index: 1;
+}
+.clientSliderFour {
+  max-width: 1435px;
+  margin: 100px auto 0;
+}
+
+.clientSliderFour .feedback-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 20px;
+  padding: 45px 50px 50px 40px;
+}
+.clientSliderFour .feedback-wrapper p {
+  font-size: 20px;
+  line-height: 1.75em;
+  color: #000;
+  padding: 20px 0 45px;
+}
+.clientSliderFour .feedback-wrapper .name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.clientSliderFour .feedback-wrapper .name span {
+  font-weight: normal;
+  font-size: 16px;
+  color: #8a8a8a;
+}
+.clientSliderFour .feedback-wrapper ul li {
+  font-size: 15px;
+  color: #ffb043;
+  margin-right: 9px;
+}
+.clientSliderFour .feedback-wrapper ul li [class*="star-o"] {
+  color: #000;
+}
+.clientSliderFour .slick-dots {
+  text-align: center;
+  margin-top: 60px;
+}
+.clientSliderFour .slick-dots li {
+  display: inline-block;
+}

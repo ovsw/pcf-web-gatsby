@@ -1,0 +1,88 @@
+/*-------------------- Pricing Section Eight --------------------*/
+.pricing-section-eight .pr-table-wrapper {
+  border: 1px solid #ededed;
+  border-radius: 15px;
+  text-align: center;
+}
+.pricing-section-eight .pr-column {
+  border-right: 1px solid #ededed;
+}
+.pricing-section-eight .pr-column:last-child {
+  border-right: none;
+}
+.pricing-section-eight .pr-column .plan {
+  display: inline-block;
+  border: 1px solid #cfcfcf;
+  border-radius: 17px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin: 29px 0 22px;
+  padding: 0 15px;
+}
+.pricing-section-eight .pr-column .price {
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #000;
+  line-height: initial;
+  margin-bottom: 3px;
+}
+.pricing-section-eight .pr-column .pr-header {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ededed;
+}
+.pricing-section-eight .pr-body .pr-text {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.pricing-section-eight .pr-body li img {
+  height: 14px;
+}
+.pricing-section-eight .pr-body li {
+  border-bottom: 1px solid #ededed;
+  padding: 32px 0;
+}
+.pricing-section-eight .trial-button {
+  width: 160px;
+  line-height: 46px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section-eight .trial-button:hover {
+  background: #373737;
+  color: #fff;
+}
+.pricing-section-eight .trial-text {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.pricing-section-eight .pr-footer {
+  padding: 38px 0 25px;
+}
+.pricing-section-eight .pr-list-wrapper {
+  border: 1px solid #ededed;
+  border-radius: 15px 0 0 15px;
+  border-right: none;
+  top: 229px;
+  left: 0;
+  height: 100%;
+}
+.pricing-section-eight .pr-list-wrapper li {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  line-height: 14px;
+  border-bottom: 1px solid #ededed;
+  padding: 32px 0 32px 25px;
+}
+.pricing-section-eight .pr-list-wrapper li:last-child {
+  border-bottom: none;
+}

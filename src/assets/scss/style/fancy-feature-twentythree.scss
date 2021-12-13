@@ -1,0 +1,62 @@
+
+/*----------------- Fancy Feature Twenty Three -------------------*/
+.block-style-twentyThree {
+  margin-bottom: 150px;
+}
+.block-style-twentyThree .text-wrapper h6 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8a8a8a;
+}
+.block-style-twentyThree .text-wrapper .title {
+  font-size: 42px;
+  line-height: 1.3em;
+  font-weight: 700;
+  padding: 28px 0 24px;
+}
+.block-style-twentyThree .text-wrapper p {
+  font-size: 20px;
+  line-height: 1.85em;
+}
+.block-style-twentyThree .screen-container {
+  position: relative;
+  max-width: 508px;
+  height: 415px;
+}
+.block-style-twentyThree .screen-container .oval-shape {
+  width: 415px;
+  height: 415px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.block-style-twentyThree .screen-container .oval-shape:nth-child(2) {
+  left: auto;
+  right: 0;
+  z-index: -1;
+}
+.block-style-twentyThree .screen-container .oval-shape:nth-child(1) {
+  mix-blend-mode: multiply;
+  transform: rotate(30deg);
+}
+.block-style-twentyThree .screen-container .shape-one {
+  z-index: 2;
+  left: -15%;
+  bottom: -18px;
+  animation: jumpTwo 5s infinite linear;
+}
+.block-style-twentyThree .screen-container .shape-two {
+  z-index: 2;
+  right: -17%;
+  bottom: -28px;
+  animation: jumpThree 5s infinite linear;
+}
+.block-style-twentyThree .screen-container .shape-three {
+  z-index: 2;
+  left: -25%;
+  bottom: -21%;
+  max-width: 583px;
+  animation: jumpTwo 5s infinite linear;
+}

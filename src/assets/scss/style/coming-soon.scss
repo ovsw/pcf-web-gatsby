@@ -1,0 +1,132 @@
+
+/*----------------- Coming Soon ---------------*/
+.full-height-layout {
+  min-height: 100vh;
+  padding: 40px 15px;
+  position: relative;
+  z-index: 5;
+}
+.coming-soon-content {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.coming-soon-content h6 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: rgba(0, 0, 0, 0.63);
+}
+.coming-soon-content h1 {
+  font-size: 72px;
+  line-height: 1.18em;
+  font-weight: 700;
+  color: #000;
+  padding: 35px 0 60px;
+}
+.coming-soon-content p {
+  font-size: 24px;
+  line-height: 1.79em;
+  color: #000;
+  padding-bottom: 55px;
+}
+.coming-soon-content form {
+  max-width: 670px;
+  height: 75px;
+  position: relative;
+  margin: 0 auto;
+}
+.coming-soon-content form input {
+  display: block;
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 0 220px 0 20px;
+  height: 100%;
+}
+.coming-soon-content form button {
+  width: 200px;
+  background: #151515;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  transition: all 0.3s ease-in-out;
+}
+.coming-soon-content form button:hover {
+  background: var(--blue-dark);
+}
+.coming-soon-content .social-icon a {
+  width: 34px;
+  height: 34px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  border-radius: 7px;
+  color: #333333;
+  margin: 0 5px;
+  transition: all 0.3s ease-in-out;
+}
+.coming-soon-content .social-icon a:hover {
+  background: #232323;
+  color: #fff;
+}
+.coming-soon-content .social-icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+}
+.coming-soon-content .shape-one {
+  left: 0;
+  top: 5%;
+  animation: fade-in-rev 1.5s infinite linear;
+}
+.coming-soon-content .shape-two {
+  left: 20%;
+  top: 9%;
+  animation: jumpThree 3.5s infinite linear;
+}
+.coming-soon-content .shape-three {
+  left: 11%;
+  top: 35%;
+  animation: jumpTwo 3.5s infinite linear;
+}
+.coming-soon-content .shape-four {
+  left: 10%;
+  top: 70%;
+  animation: fade-in 1.5s infinite linear;
+}
+.coming-soon-content .shape-five {
+  left: 22%;
+  top: 90%;
+  animation: jumpThree 3.5s infinite linear;
+}
+.coming-soon-content .shape-six {
+  right: 22%;
+  top: 9%;
+  animation: jumpThree 3.5s infinite linear;
+}
+.coming-soon-content .shape-seven {
+  right: 12%;
+  top: 28%;
+  animation: fade-in-rev 1.5s infinite linear;
+}
+.coming-soon-content .shape-eight {
+  right: 12%;
+  top: 60%;
+  animation: jumpTwo 3.5s infinite linear;
+}
+.coming-soon-content .shape-nine {
+  right: 25%;
+  top: 85%;
+  animation: jumpThree 3.5s infinite linear;
+}
+.coming-soon-content .shape-ten {
+  right: 5%;
+  bottom: 0;
+  animation: fade-in 1.5s infinite linear;
+}

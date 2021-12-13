@@ -1,0 +1,60 @@
+
+/*------------------ Team Section Two --------------*/
+.team-section-two {
+  position: relative;
+}
+.team-section-two .shape-one {
+  width: 11px;
+  height: 11px;
+  background: #f77a56;
+  right: 11%;
+  top: 42%;
+  animation: jumpThree 5s infinite linear;
+}
+.team-section-two .shape-two {
+  width: 6px;
+  height: 6px;
+  background: #f2dad5;
+  right: 11%;
+  top: 87%;
+  animation: jumpThree 5s infinite linear;
+}
+.team-section-two .shape-three {
+  width: 10px;
+  height: 10px;
+  background: #f77a56;
+  left: 13%;
+  top: 75%;
+  animation: jumpTwo 5s infinite linear;
+}
+.team-section-two .shape-four {
+  width: 8px;
+  height: 8px;
+  background: #f2dad5;
+  left: 12%;
+  top: 24%;
+  animation: jumpThree 5s infinite linear;
+}
+.team-section-two .team-member {
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.team-section-two .team-member img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.team-section-two .team-member:hover img {
+  transform: translateY(8px);
+}
+.team-section-two .team-member .name {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2a2a2a;
+  padding: 35px 0 0;
+}
+.team-section-two .team-member .position {
+  font-size: 16px;
+  color: rgba(42, 42, 42, 0.54);
+}

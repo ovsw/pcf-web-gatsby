@@ -1,0 +1,70 @@
+
+/*------------------ Fancy Text block Sixteen ---------------*/
+.fancy-text-block-sixteen {
+  position: relative;
+  padding-bottom: 150px;
+  z-index: 5;
+}
+.fancy-text-block-sixteen:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 82%;
+  left: 0;
+  bottom: 0;
+  background: #f7faff;
+  z-index: -1;
+}
+.fancy-text-block-sixteen .img-slick-slider {
+  box-shadow: 0 30px 100px rgba(8, 17, 40, 0.05);
+  margin-bottom: 90px;
+}
+.fancy-text-block-sixteen .img-slick-slider .slick-dots {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -84px;
+}
+.fancy-text-block-sixteen .img-slick-slider .slick-dots li {
+  float: left;
+  width: 33.333333%;
+  height: 4px;
+  background: rgba(216, 216, 216, 0.35);
+  position: relative;
+}
+.fancy-text-block-sixteen .img-slick-slider .slick-dots li button {
+  text-indent: -50000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 4px;
+  background: #ffd084;
+  border-radius: 4px;
+  width: 75%;
+  opacity: 0;
+  transform: scale(0, 1);
+  transform-origin: 0 100%;
+  transition: all 0.3s ease-in-out;
+}
+.fancy-text-block-sixteen .img-slick-slider .slick-dots li.slick-active button {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.fancy-text-block-sixteen .img-slick-slider .slick-dots li:last-child button {
+  left: auto;
+  right: 0;
+}
+.block-style-eleven .num {
+  font-size: 30px;
+  color: #202020;
+}
+.block-style-eleven .title {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 17px 0 10px;
+}
+.block-style-eleven p {
+  font-size: 25px;
+  color: #000;
+  line-height: 1.35em;
+}

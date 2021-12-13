@@ -1,0 +1,66 @@
+
+/*--------------------- Pricing Section Seven ------------------*/
+.pricing-table-area-seven .pr-table-wrapper {
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  box-shadow: 0px 3px 4px rgba(8, 20, 32, 0.04);
+  border-radius: 15px;
+  position: relative;
+  padding: 60px 15px 50px 58px;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-table-area-seven .pr-table-wrapper .icon {
+  height: 25px;
+}
+.pricing-table-area-seven .pr-table-wrapper .pack-name {
+  font-size: 32px;
+  font-weight: 500;
+  color: #000;
+  padding: 37px 0 30px;
+}
+.pricing-table-area-seven .pr-table-wrapper .pr-feature li {
+  line-height: 42px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-left: 26px;
+  position: relative;
+}
+.pricing-table-area-seven .pr-table-wrapper .pr-feature li:before {
+  content: url(../../images/icon/139.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pricing-table-area-seven .pr-table-wrapper .price {
+  color: #000;
+  font-size: 28px;
+  padding: 50px 0 3px;
+}
+.pricing-table-area-seven .pr-table-wrapper .price span {
+  font-size: 18px;
+}
+.pricing-table-area-seven .pr-table-wrapper .trial-text {
+  color: rgba(0, 0, 0, 0.54);
+}
+.pricing-table-area-seven .pr-table-wrapper .trial-button {
+  width: 154px;
+  line-height: 43px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  border: 1px solid #000;
+  margin-top: 28px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-table-area-seven .pr-table-wrapper .trial-button:hover,
+.pricing-table-area-seven .pr-table-wrapper.active .trial-button {
+  background: #373737;
+  color: #fff;
+}
+.pricing-table-area-seven .pr-table-wrapper.active,
+.pricing-table-area-seven .pr-table-wrapper:hover {
+  box-shadow: 0px 25px 60px rgba(0, 13, 48, 0.0480786);
+  border-radius: 16px;
+  border-color: #fff;
+}

@@ -1,0 +1,89 @@
+
+/*------------------- Footer Style Six ---------------*/
+.theme-footer-six {
+  background: url(../../images/media/img_77.png) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  margin-top: 200px;
+}
+.theme-footer-six .shape-one {
+  left: 9%;
+  bottom: -200px;
+  animation: jumpThree 10s infinite linear;
+}
+.theme-footer-six .inner-container {
+  background: linear-gradient(
+    180deg,
+    #0f1123 0%,
+    rgba(15, 17, 35, 0.83) 48.7%,
+    #0f1123 100%
+  );
+  padding: 100px 0 10px;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+}
+.theme-footer-six .inner-container:before {
+  content: "";
+  position: absolute;
+  width: 995px;
+  height: 995px;
+  border-radius: 50%;
+  top: -94%;
+  left: 24%;
+  background: rgba(89, 156, 255, 0.12);
+  filter: blur(300px);
+  transform: rotate(150deg);
+  z-index: -1;
+}
+.theme-footer-six .inner-container:after {
+  content: "";
+  position: absolute;
+  width: 860px;
+  height: 860px;
+  border-radius: 50%;
+  bottom: -153%;
+  left: 18%;
+  background: rgba(255, 4, 64, 0.15);
+  filter: blur(300px);
+  transform: rotate(150deg);
+  z-index: -2;
+}
+.theme-footer-six .inner-container [class*="col-"] {
+  margin-bottom: 40px;
+}
+.theme-footer-six .title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.theme-footer-six .social-icon li a {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  margin: 0 5px;
+  transition: all 0.3s ease-in-out;
+}
+.theme-footer-six .social-icon li a:hover {
+  background: #ff2759;
+  border-color: #ff2759;
+  color: #fff;
+}
+.theme-footer-six .email {
+  color: rgba(255, 255, 255, 0.8);
+}
+.theme-footer-six .email:hover {
+  text-decoration: underline;
+}
+.theme-footer-six .copyright {
+  text-align: center;
+  font-size: 16px;
+  padding: 45px 0 0;
+}

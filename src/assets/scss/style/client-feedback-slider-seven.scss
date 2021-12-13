@@ -1,0 +1,43 @@
+
+/*-------------- Client Feedback Slider Seven ----------------*/
+.client-feedback-slider-seven {
+  position: relative;
+  padding: 180px 0;
+  z-index: 1;
+}
+.client-feedback-slider-seven .bg-image {
+  position: absolute;
+  max-height: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  object-position: top center;
+  z-index: -1;
+}
+.client-feedback-slider-seven .clientSliderFive p {
+  color: #4f4f4f;
+}
+.client-feedback-slider-seven .clientSliderFive .name {
+  color: #000;
+}
+.client-feedback-slider-seven .slider-arrow li {
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 7px;
+  font-size: 26px;
+  color: #5d5d5d;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.6);
+}
+.client-feedback-slider-seven .slider-arrow li:first-child i {
+  transform: rotate(180deg);
+  display: inline-block;
+}
+.client-feedback-slider-seven .slider-arrow li:hover {
+  opacity: 1;
+  transform: scale(1);
+}

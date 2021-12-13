@@ -1,0 +1,89 @@
+
+/*---------------------- Fancy Feature Fifteen ------------------*/
+.fancy-feature-fifteen {
+  margin: 0 15px;
+}
+.fancy-feature-fifteen .bg-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #f6f9fc;
+  padding: 70px 0;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+.fancy-feature-fifteen .bg-wrapper:before {
+  content: "";
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  background: #75f1d5;
+  top: -59px;
+  right: -48px;
+  z-index: 1;
+  animation: jumpTwo 6s infinite linear;
+}
+.fancy-feature-fifteen .bg-wrapper .shape-one {
+  left: -33px;
+  top: 22%;
+  animation: jumpTwo 6s infinite linear;
+}
+.fancy-feature-fifteen .bg-wrapper .shape-two {
+  right: -33px;
+  top: 58%;
+  animation: jumpThree 6s infinite linear;
+}
+.fancy-feature-fifteen .carousel-indicators {
+  position: relative;
+  margin: 0;
+}
+.fancy-feature-fifteen li {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background: transparent;
+  opacity: 0.75;
+  border: none;
+  text-indent: 0;
+  position: relative;
+  width: auto;
+  margin-bottom: 10px;
+}
+.fancy-feature-fifteen li:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  left: 0;
+  bottom: -3px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.fancy-feature-fifteen li p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  padding-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.fancy-feature-fifteen .react-tabs__tab-list {
+  max-width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  cursor: pointer;
+  @media screen and (max-width: 991px) {
+    max-width: 100%;
+    justify-content: center;
+    li {
+      margin: 10px;
+    }
+  }
+}
+.fancy-feature-fifteen li.react-tabs__tab--selected,
+.fancy-feature-fifteen li.react-tabs__tab--selected:before {
+  opacity: 1;
+}

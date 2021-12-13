@@ -1,0 +1,54 @@
+
+/*---------------- Fancy Text block Eleven -----------------*/
+.fancy-text-block-eleven .text-wrapper {
+  padding: 50px 0 0 65px;
+}
+.fancy-text-block-eleven .text-wrapper p {
+  font-size: 22px;
+  line-height: 1.81em;
+}
+.fancy-text-block-eleven .img-gallery {
+  position: relative;
+  display: inline-block;
+}
+.fancy-text-block-eleven .img-gallery .overlay-img {
+  position: absolute;
+  right: -130px;
+  top: -70px;
+  z-index: 1;
+}
+.fancy-text-block-eleven .img-gallery .shape-one {
+  top: -13%;
+  left: -16%;
+}
+.fancy-text-block-eleven .img-gallery .shape-two {
+  bottom: -19%;
+  right: -21%;
+  animation: rotatedTwo 50s infinite linear;
+}
+.fancy-text-block-eleven .img-gallery .shape-three {
+  bottom: -9%;
+  left: -16%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-text-block-eleven .video-box {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.fancy-text-block-eleven .video-box .video-button {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #fd6a5e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+.fancy-text-block-eleven .video-box .video-button:hover {
+  background: #212121;
+}

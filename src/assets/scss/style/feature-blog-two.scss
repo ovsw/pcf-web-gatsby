@@ -1,0 +1,55 @@
+
+/*-------------- Feature Blog Two -------------*/
+.feature-blog-two {
+  background: #f2fbfd;
+}
+.feature-blog-two .header .title-style-one {
+  max-width: 560px;
+}
+.feature-blog-two .row [class*="col-"] {
+  display: flex;
+}
+.feature-blog-two .post-meta {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  margin-top: 35px;
+  padding: 20px 20px 80px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.feature-blog-two .post-meta:hover {
+  transform: translateY(-10px);
+}
+.feature-blog-two .post-meta .image-meta {
+  width: 100%;
+  border-radius: 5px;
+}
+.feature-blog-two .post-meta .title {
+  font-family: "gilroy-bold";
+  font-size: 30px;
+  line-height: 1.2em;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  margin-top: 50px;
+}
+.feature-blog-two .post-meta:hover .title {
+  color: var(--blue-dark);
+}
+.feature-blog-two .post-meta .read-more {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: rgba(10, 10, 10, 0.54);
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.feature-blog-two .post-meta .read-more i {
+  font-size: 22px;
+  color: var(--blue-dark);
+}
+.feature-blog-two .post-meta .read-more:hover {
+  color: var(--blue-dark);
+}

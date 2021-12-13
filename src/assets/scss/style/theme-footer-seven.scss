@@ -1,0 +1,147 @@
+
+/*-------------- Footer Style Seven -------------*/
+.theme-footer-seven .title {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 3px;
+  padding-bottom: 25px;
+}
+.theme-footer-seven .footer-list a {
+  line-height: 40px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.theme-footer-seven .footer-list a:hover {
+  text-decoration: underline;
+}
+.theme-footer-seven .newsletter p {
+  font-size: 19px;
+  color: #000;
+  padding: 10px 0 40px;
+  span {
+    text-decoration: underline;
+  }
+}
+.theme-footer-seven .inner-btn-black .newsletter {
+  button {
+    background: #262626;
+    color: #fff;
+    &:hover {
+      background: #eb5e2a;
+    }
+  }
+}
+.theme-footer-seven .newsletter p span {
+  text-decoration: underline;
+}
+.theme-footer-seven .newsletter form {
+  height: 70px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.theme-footer-seven .newsletter form input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 0 125px 0 20px;
+  font-size: 16px;
+  color: #000;
+}
+.theme-footer-seven .newsletter form ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+.theme-footer-seven .newsletter form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+.theme-footer-seven .newsletter form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000;
+}
+.theme-footer-seven .newsletter form button {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+  width: 115px;
+  border-radius: 8px;
+  background: #ffeaa0;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.theme-footer-seven .newsletter form button.dark-btn {
+  background: #262626;
+  color: #fff;
+}
+.theme-footer-seven .newsletter form button.dark-btn:hover {
+  background: #eb5e2a;
+}
+.theme-footer-seven .newsletter .info {
+  font-size: 14px;
+  color: #878787;
+}
+.theme-footer-seven .bottom-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 35px 0 15px;
+  margin-top: 45px;
+}
+.theme-footer-seven .bottom-footer .footer-nav a {
+  font-size: 16px;
+  color: #000;
+  margin-right: 25px;
+}
+.theme-footer-seven .bottom-footer .footer-nav a:hover {
+  text-decoration: underline;
+}
+.theme-footer-seven .bottom-footer .copyright {
+  font-size: 16px;
+  color: #373737;
+  a {
+    &:hover {
+      color: #000;
+      text-decoration: underline;
+    }
+  }
+}
+.theme-footer-seven .bottom-footer .social-icon a {
+  font-size: 20px;
+  margin-left: 15px;
+  color: #000;
+  transition: 0.3s;
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/*---- Dark Style ----*/
+.theme-footer-seven.dark-bg {
+  .logo {
+    img {
+      filter: invert(1);
+    }
+  }
+}
+.theme-footer-seven.dark-bg {
+  background: #262626;
+  color: #fff;
+}
+.theme-footer-seven.dark-bg .title {
+  color: rgba(255, 255, 255, 0.54);
+}
+.theme-footer-seven.dark-bg .footer-list a,
+.theme-footer-seven.dark-bg .newsletter p,
+.theme-footer-seven.dark-bg .bottom-footer .footer-nav a,
+.theme-footer-seven.dark-bg .bottom-footer .copyright,
+.theme-footer-seven.dark-bg .bottom-footer .social-icon a {
+  color: #fff;
+}
+.theme-footer-seven.dark-bg .bottom-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}

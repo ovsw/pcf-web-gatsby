@@ -1,0 +1,133 @@
+
+/*=======================================================================
+                              Product landing / Mobile App           
+=========================================================================*/
+/*---------------------Theme Hero Banner/Ten ---------------*/
+.hero-banner-ten {
+  position: relative;
+  z-index: 1;
+  margin: 70px 0 0;
+  text-align: center;
+}
+.hero-banner-ten .hero-heading {
+  font-size: 82px;
+  line-height: 1.21em;
+  font-weight: 500;
+}
+.hero-banner-ten .hero-sub-heading {
+  font-size: 24px;
+  padding: 45px 0 55px;
+  color: #000;
+}
+.hero-banner-ten .button-group a {
+  width: 200px;
+  height: 60px;
+  padding: 0 5px 0 25px;
+  margin: 10px 12px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  color: #000;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+.hero-banner-ten .button-group a:hover {
+  transform: translateY(-5px);
+  box-shadow: -5px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.hero-banner-ten .button-group a .icon {
+  margin-right: 15px;
+}
+.hero-banner-ten .button-group a span {
+  font-size: 11px;
+  color: #737373;
+  display: block;
+  margin-bottom: -11px;
+  margin-top: -5px;
+}
+.hero-banner-ten .button-group a strong {
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+}
+.hero-banner-ten .button-group a.ios-button {
+  background: #303030;
+  color: #fff;
+}
+.hero-banner-ten .button-group a.ios-button span {
+  color: rgba(255, 255, 255, 0.7);
+}
+.hero-banner-ten [class*="icon-box"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+}
+.hero-banner-ten [class*="icon-box"] img {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hero-banner-ten .icon-box-one {
+  width: 60px;
+  height: 60px;
+  background: #fff7db;
+  top: -7%;
+  left: 14%;
+  animation: jumpTwo 4.5s infinite linear;
+}
+.hero-banner-ten .icon-box-two {
+  width: 85px;
+  height: 85px;
+  background: #e7ffe9;
+  top: 28%;
+  left: 4%;
+  animation: jumpTwo 4s infinite linear;
+}
+.hero-banner-ten .icon-box-three {
+  width: 70px;
+  height: 70px;
+  background: #e8f7ff;
+  top: 48%;
+  left: 18%;
+  animation: jumpThree 4.5s infinite linear;
+}
+.hero-banner-ten .icon-box-four {
+  width: 70px;
+  height: 70px;
+  background: #f8e9ff;
+  bottom: -10%;
+  left: 9%;
+  animation: jumpThree 4s infinite linear;
+}
+.hero-banner-ten .icon-box-five {
+  width: 60px;
+  height: 60px;
+  background: #eaf0ff;
+  top: -7%;
+  right: 13%;
+  animation: jumpTwo 4.5s infinite linear;
+}
+.hero-banner-ten .icon-box-six {
+  width: 90px;
+  height: 90px;
+  background: #e1fff3;
+  top: 29%;
+  right: 4%;
+  animation: jumpTwo 4s infinite linear;
+}
+.hero-banner-ten .icon-box-seven {
+  width: 65px;
+  height: 65px;
+  background: #fff8ea;
+  top: 48%;
+  right: 18%;
+  animation: jumpThree 4.5s infinite linear;
+}
+.hero-banner-ten .icon-box-eight {
+  width: 75px;
+  height: 75px;
+  background: #ffebef;
+  bottom: -12%;
+  right: 10%;
+  animation: jumpThree 4s infinite linear;
+}

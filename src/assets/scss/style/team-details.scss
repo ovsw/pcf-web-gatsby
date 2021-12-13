@@ -1,0 +1,111 @@
+
+/*----------------- Team Details ---------------*/
+.team-details {
+  background: #f2fbfd;
+  padding: 160px 0;
+  position: relative;
+  z-index: 1;
+}
+.team-details .main-bg {
+  background: #fff;
+  box-shadow: 0px 40px 80px rgba(0, 29, 56, 0.03);
+}
+.team-details .main-bg .img-meta {
+  width: 48%;
+}
+.team-details .main-bg .text-wrapper {
+  width: 52%;
+  padding: 40px 50px 40px 115px;
+}
+.team-details .main-bg .text-wrapper .name {
+  font-size: 33px;
+  color: #000;
+}
+.team-details .main-bg .text-wrapper .position {
+  color: rgba(0, 0, 0, 0.63);
+  padding: 10px 0 50px;
+}
+.team-details .main-bg .text-wrapper h6 {
+  font-size: 18px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.team-details .main-bg .text-wrapper .social-icon a {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.team-details .main-bg .text-wrapper .social-icon a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.team-details .main-bg .text-wrapper .social-icon a:hover {
+  color: #fff;
+  transform: translateY(-5px);
+}
+.team-details .main-bg .text-wrapper .social-icon a:hover:before {
+  opacity: 1;
+}
+.team-details .main-bg .text-wrapper .social-icon li:nth-child(1) a:before {
+  background: #6f55ff;
+}
+.team-details .main-bg .text-wrapper .social-icon li:nth-child(2) a:before {
+  background: #1da1f2;
+}
+.team-details .main-bg .text-wrapper .social-icon li:nth-child(3) a:before {
+  background: #ea4c89;
+}
+.team-details .main-bg .text-wrapper .social-icon li:nth-child(4) a:before {
+  background: #d44638;
+}
+.team-details .shape-one {
+  left: 0;
+  top: -127px;
+  animation: jumpTwo 4s infinite linear;
+}
+.team-details .shape-two {
+  right: 0;
+  bottom: -127px;
+  animation: jumpThree 4s infinite linear;
+}
+.team-details .pager {
+  position: absolute;
+  width: calc(100% + 180px);
+  left: -90px;
+  top: 50%;
+  margin-top: -27px;
+}
+.team-details .pager a {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  color: #000;
+  font-size: 22px;
+  transition: all 0.3s ease-in-out;
+}
+.team-details .pager a:hover {
+  background: #353535;
+  color: #fff;
+}
+.team-details .pager a:first-child i {
+  display: inline-block;
+  transform: rotate(180deg);
+}

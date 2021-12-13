@@ -1,0 +1,182 @@
+
+/*------------------- Contact Us Light --------------*/
+.contact-us-light {
+  background: linear-gradient(45deg, #fffbf2, #edfffd);
+  position: relative;
+  z-index: 1;
+}
+.contact-us-light:before {
+  content: url(../../images/shape/15.svg);
+  position: absolute;
+  left: 0;
+  bottom: -140px;
+}
+.contact-us-light [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.contact-us-light .bubble-one {
+  width: 30px;
+  height: 30px;
+  background: #ffdfdf;
+  left: 39%;
+  top: -15px;
+  z-index: 2;
+  animation: scale-up-one 4s infinite linear;
+}
+.contact-us-light .bubble-two {
+  width: 7px;
+  height: 7px;
+  background: #51fcff;
+  top: 14%;
+  right: 8%;
+  animation: scale-up-three 4s infinite linear;
+}
+.contact-us-light .bubble-three {
+  width: 8px;
+  height: 8px;
+  background: #6aee90;
+  top: 32%;
+  left: 44%;
+  animation: scale-up-three 4s infinite linear;
+}
+.contact-us-light .bubble-four {
+  width: 8px;
+  height: 8px;
+  background: #ffcd8b;
+  left: 11%;
+  top: 15%;
+  animation: scale-up-three 4s infinite linear;
+}
+.contact-us-light .address-info {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-us-light .address-info .icon {
+  height: 82px;
+}
+.contact-us-light .address-info .icon img {
+  margin: 0 auto;
+  max-height: 100%;
+}
+.contact-us-light .address-info .title {
+  font-size: 18px;
+  color: #8e8e8e;
+  padding: 30px 0 5px;
+}
+.contact-us-light .address-info p {
+  font-size: 24px;
+  line-height: 1.45em;
+  color: #000;
+}
+.contact-us-light .address-info ul li a {
+  font-size: 22px;
+  margin: 5px 15px;
+  color: rgba(0, 0, 0, 0.52);
+  transition: all 0.2s ease-in-out;
+}
+.contact-us-light .address-info ul li a:hover {
+  color: var(--blue-dark);
+}
+.form-style-light {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(14, 49, 42, 0.05);
+  padding: 100px 100px 95px;
+  margin-top: 90px;
+}
+.form-style-light .input-group-meta {
+  height: 55px;
+  position: relative;
+}
+.form-style-light .input-group-meta.lg {
+  height: 220px;
+}
+.form-style-light .input-group-meta input {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  border: solid 1px #d6d6d6;
+  padding: 0 52px 0 20px;
+  color: var(--heading);
+  background: transparent;
+  font-family: "Rubik", sans-serif;
+}
+.form-style-light .input-group-meta textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--heading);
+  border: solid 1px #d6d6d6;
+  resize: none;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+}
+.form-style-light .input-group-meta input:focus {
+  border-color: var(--blue-dark);
+}
+.form-style-light .input-group-meta label {
+  font-size: 16px;
+  padding: 0 6px;
+  font-weight: normal;
+  position: absolute;
+  left: 20px;
+  line-height: 10px;
+  top: -5px;
+  z-index: 1;
+  background: #fff;
+}
+.form-style-light .input-group-meta .placeholder_icon {
+  position: absolute;
+  line-height: 55px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  text-align: center;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 17px;
+  cursor: pointer;
+}
+.form-style-light .input-group-meta .placeholder_icon img {
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+.form-style-light .input-group-meta .valid-sign {
+  opacity: 1;
+  visibility: visible;
+}
+.form-style-light .input-group-meta input:valid + .valid-sign {
+  opacity: 0;
+  visibility: hidden;
+}
+#contact-form .form-group .help-block {
+  position: absolute;
+  left: 0;
+  bottom: -24px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  padding: 0 15px;
+  border-radius: 3px;
+  background: #dc3545;
+  box-shadow: 0px 10px 25px 0px rgba(123, 147, 171, 0.15);
+}
+#contact-form .form-group .help-block li {
+  position: relative;
+}
+#contact-form .form-group .help-block li:before {
+  content: "";
+  font-family: "font-awesome";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  color: #dc3545;
+}

@@ -1,0 +1,100 @@
+
+/*-------------------- Useable Tools Two --------------------*/
+.useable-tools-section-two.bg-shape {
+  padding: 0 15px;
+}
+.useable-tools-section-two.bg-shape .bg-wrapper {
+  max-width: 1460px;
+  margin: 0 auto;
+  background: #fdf3e7;
+  position: relative;
+  padding: 108px 0 0;
+  z-index: 1;
+}
+.useable-tools-section-two.bg-shape .bg-wrapper:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  background-image: url(../../images/shape/37.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -13px;
+  left: 0;
+}
+.useable-tools-section-two.bg-shape .bg-wrapper:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 24px;
+  background-image: url(../../images/shape/38.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -23px;
+  left: 0;
+}
+.useable-tools-section-two.bg-shape .bg-wrapper .shapes {
+  z-index: 1;
+}
+.useable-tools-section-two.bg-shape .bg-wrapper .shape-one {
+  width: 6px;
+  height: 6px;
+  background: #f2dad5;
+  top: 6%;
+  left: 11%;
+  animation: jumpThree 5s infinite linear;
+}
+.useable-tools-section-two.bg-shape .bg-wrapper .shape-two {
+  width: 10px;
+  height: 10px;
+  background: #f77a56;
+  top: 10%;
+  right: 11%;
+  animation: jumpTwo 5s infinite linear;
+}
+.useable-tools-section-two.bg-shape .bg-wrapper .shape-three {
+  width: 6px;
+  height: 6px;
+  background: #f2dad5;
+  top: 45%;
+  right: 24%;
+  animation: jumpThree 5s infinite linear;
+}
+.useable-tools-section-two.bg-shape .bg-wrapper .shape-four {
+  width: 8px;
+  height: 8px;
+  background: #f77a56;
+  top: 43%;
+  left: 16%;
+  animation: jumpTwo 5s infinite linear;
+}
+.useable-tools-section-two .icon-wrapper ul {
+  margin: 0 -15px;
+  position: relative;
+  z-index: 1;
+  transform: translateY(58px);
+}
+.useable-tools-section-two .icon-wrapper ul li {
+  padding: 0 15px;
+  float: left;
+  width: 11.11111%;
+}
+.useable-tools-section-two .icon-wrapper ul li:nth-child(odd) {
+  margin-top: 50px;
+}
+.useable-tools-section-two .icon-wrapper ul li:nth-child(4),
+.useable-tools-section-two .icon-wrapper ul li:nth-child(6) {
+  margin-top: 110px;
+}
+.useable-tools-section-two .icon-wrapper ul li .icon-box {
+  background: #fff;
+  border-radius: 10px;
+  height: 100px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.useable-tools-section-two .theme-btn-two {
+  border-radius: 5px;
+}

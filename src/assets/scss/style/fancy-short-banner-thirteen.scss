@@ -1,0 +1,31 @@
+
+/*-------------------- Fancy Short Banner Thirteen --------------------*/
+.fancy-short-banner-thirteen .bg-wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+  position: relative;
+  background: #fbf5ed;
+  padding: 75px 0 72px;
+  text-align: center;
+  z-index: 1;
+}
+.fancy-short-banner-thirteen .bg-wrapper:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  background: url(../../images/shape/228.jpg) no-repeat center top;
+  background-size: cover;
+  left: 0;
+  top: -30px;
+}
+.fancy-short-banner-thirteen .bg-wrapper:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background: url(../../images/shape/229.jpg) no-repeat center bottom;
+  background-size: cover;
+  left: 0;
+  bottom: -28px;
+}

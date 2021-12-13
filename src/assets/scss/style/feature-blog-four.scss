@@ -1,0 +1,74 @@
+
+/*-------------------- Feature Blog Four -----------------*/
+.feature-blog-four {
+  background: #fdecd8;
+  position: relative;
+  z-index: 1;
+  padding: 100px 0 100px;
+  &.blog-page-bg {
+    background: linear-gradient(45deg, #fffbf2, #edfffd);
+    padding: 180px 0 150px;
+    position: relative;
+    z-index: 5;
+    &::before,
+    &::after {
+      display: none;
+    }
+
+    .feature-article-meta:hover .post-meta a {
+      color: var(--blue-dark);
+    }
+  }
+}
+.feature-blog-four:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 85px;
+  background: url(../../images/shape/115.svg) no-repeat center top;
+  background-size: cover;
+  left: 0;
+  top: -84px;
+}
+.feature-blog-four:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 33px;
+  background: url(../../images/shape/116.svg) no-repeat center bottom;
+  background-size: cover;
+  left: 0;
+  bottom: -32px;
+}
+.feature-blog-four .feature-article-meta {
+  margin-bottom: 35px;
+}
+.feature-blog-four .feature-article-meta .img-meta {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.feature-blog-four .feature-article-meta .img-meta img {
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+.feature-blog-four .feature-article-meta:hover .img-meta img {
+  transform: scale3d(1.1, 1.1, 1);
+}
+.feature-blog-four .feature-article-meta .post-meta a {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  line-height: 1.3em;
+  transition: all 0.3s ease-in-out;
+}
+.feature-blog-four .feature-article-meta:hover .post-meta a {
+  color: var(--vin-red);
+}
+.feature-blog-four .feature-article-meta .post-meta .author_info {
+  font-size: 20px;
+  color: var(--heading);
+  margin-top: 25px;
+}
+.feature-blog-four .feature-article-meta .post-meta .author_info span {
+  color: #b7b7b7;
+}

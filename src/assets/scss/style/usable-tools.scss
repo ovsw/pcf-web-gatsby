@@ -1,0 +1,193 @@
+/*------------------ Useable Tools  --------------*/
+.useable-tools-section.bg-shape {
+  position: relative;
+  z-index: 5;
+  background-image: url(../../images/shape/7.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding: 500px 0 350px;
+}
+.useable-tools-section.bg-color {
+  background: var(--blue-dark);
+  padding: 130px 0 120px;
+}
+.useable-tools-section h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding-bottom: 15px;
+  color: #fff;
+}
+.useable-tools-section.bg-transparent h6 {
+  color: rgba(0, 0, 0, 0.63);
+}
+.useable-tools-section.bg-transparent h2 {
+  color: #2a2a2a;
+  margin: 0;
+}
+.useable-tools-section h2 {
+  font-family: "gilroy-black";
+  font-size: 58px;
+  line-height: 1.2em;
+  color: #fff;
+  margin: 20px 0 120px;
+}
+.useable-tools-section .sub-text {
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.59em;
+  color: #000;
+}
+.useable-tools-section .img-box a {
+  display: block;
+  height: 100%;
+}
+.useable-tools-section .img-box img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+.useable-tools-section .img-box {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 15.436px 30.294px 50px 0px rgba(103, 43, 246, 0.5);
+  width: 175px;
+  height: 175px;
+  margin: 0 auto 25px;
+  transition: all 0.3s ease-in-out;
+  @media screen and (max-width: 575px) {
+    margin: 0 auto 15px;
+  }
+}
+.useable-tools-section.bg-transparent .img-box {
+  box-shadow: 15px 30px 50px rgba(23, 32, 90, 0.06);
+}
+.useable-tools-section-three .logo-wrapper.brand-bg-white .logo {
+  background: #ffffff !important;
+  box-shadow: 15px 30px 50px rgba(23, 32, 90, 0.0696193);
+}
+.useable-tools-section .img-box:hover {
+  transform: scale(1.1);
+}
+.useable-tools-section .img-box.bx-b {
+  width: 121px;
+  height: 121px;
+  margin-top: 45px;
+  @media screen and (max-width: 575px) {
+    width: 120px;
+    height: 120px;
+  }
+}
+.useable-tools-section .img-box.bx-d {
+  width: 151px;
+  height: 151px;
+  margin-top: 25px;
+  @media screen and (max-width: 575px) {
+    width: 120px;
+    height: 120px;
+  }
+}
+.useable-tools-section .img-box.bx-f {
+  width: 135px;
+  height: 135px;
+  margin-top: 20px;
+  @media screen and (max-width: 575px) {
+    width: 120px;
+    height: 120px;
+  }
+}
+.useable-tools-section .img-box.bx-g {
+  width: 197px;
+  height: 197px;
+  @media screen and (max-width: 575px) {
+    width: 120px;
+    height: 120px;
+  }
+}
+.useable-tools-section .img-box.bx-h {
+  width: 138px;
+  height: 138px;
+  margin-top: 20px;
+  @media screen and (max-width: 575px) {
+    width: 120px;
+    height: 120px;
+  }
+}
+.useable-tools-section [class*="bubble"] {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+.useable-tools-section [class*="bubble"]:before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background: #9a71ff;
+}
+.useable-tools-section .bubble-one {
+  width: 120px;
+  height: 120px;
+  left: 43%;
+  top: 20%;
+  animation: rotated 14s infinite linear;
+}
+.useable-tools-section .bubble-one:before {
+  width: 6px;
+  height: 6px;
+  top: 0;
+  right: 50%;
+}
+.useable-tools-section .bubble-two {
+  width: 140px;
+  height: 140px;
+  right: 20%;
+  top: 14%;
+  animation: rotatedTwo 14s infinite linear;
+}
+.useable-tools-section .bubble-two:before {
+  width: 12px;
+  height: 12px;
+  top: 0;
+  left: 50%;
+}
+.useable-tools-section .bubble-three {
+  width: 95px;
+  height: 95px;
+  left: 10%;
+  top: 44%;
+  animation: rotated 14s infinite linear;
+}
+.useable-tools-section .bubble-three:before {
+  width: 10px;
+  height: 10px;
+  top: 100%;
+  left: 50%;
+}
+.useable-tools-section .bubble-four {
+  width: 95px;
+  height: 95px;
+  right: 10%;
+  top: 48%;
+  animation: rotatedTwo 14s infinite linear;
+}
+.useable-tools-section .bubble-four:before {
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 50%;
+}
+.useable-tools-section .bubble-five {
+  width: 95px;
+  height: 95px;
+  right: 56%;
+  bottom: 8%;
+  animation: rotated 14s infinite linear;
+}
+.useable-tools-section .bubble-five:before {
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 50%;
+}

@@ -1,0 +1,104 @@
+/*---------------------- Fancy Text block Six ---------------*/
+.fancy-text-block-six {
+  position: relative;
+}
+.fancy-text-block-six .illustration-holder .shape-one {
+  right: -20%;
+  top: 29%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-text-block-six .img-meta-container {
+  position: absolute;
+  right: 0;
+  top: 23px;
+  max-width: 42%;
+}
+.fancy-text-block-six .img-meta-container .shape-one {
+  top: -7%;
+  left: -4%;
+  animation: rotated 18s infinite linear;
+}
+.fancy-text-block-six .img-meta-container .shape-two {
+  top: -11%;
+  left: 26%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-text-block-six .img-meta-container .shape-three {
+  top: -6%;
+  right: 31%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-text-block-six .img-meta-container .shape-four {
+  top: 44%;
+  left: -7%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-text-block-six .img-meta-container .shape-five {
+  bottom: -15%;
+  left: -10%;
+  animation: rotated 50s infinite linear;
+}
+.fancy-text-block-six .img-meta-container .shape-six {
+  bottom: -11%;
+  left: 28%;
+  animation: rotated 20s infinite linear;
+}
+.fancy-text-block-six .img-meta-container .shape-seven {
+  bottom: -12%;
+  left: 57%;
+  animation: jumpTwo 5s infinite linear;
+}
+.accordion-style-two {
+  .card {
+    background: #fff;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+    &:not(:last-child) {
+      border-bottom: 2px solid #000 !important;
+    }
+  }
+}
+.accordion-style-two .card .card-header {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+.accordion-style-two .card .card-header button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 22px 70px 22px 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  line-height: 1.4em;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  color: var(--heading);
+  text-decoration: none;
+  position: relative;
+}
+.accordion-style-two .card .card-header button:before,
+.accordion .card .card-header button:before {
+  content: "";
+  font-family: "font-awesome";
+  position: absolute;
+  font-size: 28px;
+  right: 0;
+  left: auto;
+  top: 30%;
+  transition: 0.3s ease-in-out;
+}
+/*.accordion-style-two .card .card-header button[data-toggle="collapse"].collapsed:before {content: "";}*/
+.accordion-style-two .card .card-body {
+  padding: 0 70px 30px 0;
+}
+.accordion-style-two .card .card-body p {
+  font-size: 20px;
+  line-height: 1.55em;
+}
+.accordion-style-two .card:last-child {
+  border: none;
+}

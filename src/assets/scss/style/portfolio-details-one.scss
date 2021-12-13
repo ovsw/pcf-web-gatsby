@@ -1,0 +1,69 @@
+
+/*-------------------- Portfolio Details One ---------------------*/
+.portfolio-details-one .header .tag {
+  font-size: 16px;
+  color: #bdbdbd;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+.portfolio-details-one .header h2 {
+  letter-spacing: -1px;
+}
+.portfolio-details-one .header .social-icon a {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #e7e7e7;
+  border-radius: 50%;
+  line-height: 42px;
+  color: #000;
+  font-size: 20px;
+  margin: 0 6px;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-details-one .header .social-icon a:hover {
+  background: #000;
+  color: #fff;
+}
+.portfolio-details-one .main-content .project-info strong {
+  display: block;
+  font-size: 16px;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.portfolio-details-one .main-content .project-info span {
+  display: block;
+  text-transform: uppercase;
+  color: #a1a1a1;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: -2px 0 50px;
+}
+.portfolio-details-one .main-content h4 {
+  font-family: "gordita";
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+}
+.portfolio-details-one .main-content p {
+  margin-bottom: 50px;
+}
+.portfolio-details-one .portfolio-pagination .tp1 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.portfolio-details-one .portfolio-pagination .tp2 {
+  font-family: "gordita";
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: -1px;
+  color: #000;
+}
+.portfolio-details-one .portfolio-pagination a:hover .tp2 {
+  text-decoration: underline;
+}

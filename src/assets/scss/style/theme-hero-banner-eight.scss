@@ -1,0 +1,45 @@
+
+/*=======================================================================
+                    Product landing / Online Video Editor           
+=========================================================================*/
+/*---------------- Theme Hero Banner ---------------*/
+.hero-banner-eight {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  margin-top: 62px;
+}
+.hero-banner-eight .hero-heading {
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 1.11em;
+}
+.hero-banner-eight .hero-sub-heading {
+  font-size: 23px;
+  color: #000;
+  padding: 35px 0 55px;
+}
+.hero-banner-eight .video-wrapper {
+  max-width: 1050px;
+  height: 600px;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.04);
+  margin: 75px auto 0;
+}
+.hero-banner-eight .video-wrapper video {
+  display: block;
+}
+.hero-banner-eight .shape-right {
+  top: -1%;
+  right: 0;
+  width: 25.5%;
+  animation: fade-in 1.5s infinite linear;
+}
+.hero-banner-eight .shape-left {
+  top: 0;
+  left: 0;
+  width: 29.4%;
+  animation: fade-in-rev 1.5s infinite linear;
+}

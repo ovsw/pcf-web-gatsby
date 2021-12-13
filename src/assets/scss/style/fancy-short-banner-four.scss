@@ -1,0 +1,71 @@
+
+/*------------------ Fancy Short Banner Four ----------------*/
+.fancy-short-banner-four {
+  margin-top: -135px;
+  position: relative;
+  z-index: 5;
+  @media screen and (max-width: 767px) {
+    margin-top: 100px;
+  }
+}
+.fancy-short-banner-four .bg-wrapper {
+  background: #1b1b1b;
+  border-radius: 3px;
+  padding: 65px 50px;
+}
+.fancy-short-banner-four .title h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  letter-spacing: 1px;
+  padding-bottom: 13px;
+}
+.fancy-short-banner-four .title h2 {
+  font-family: "gilroy-bold";
+  font-size: 52px;
+  line-height: 1.15em;
+  color: #fff;
+}
+.fancy-short-banner-four .form-wrapper form {
+  position: relative;
+  height: 70px;
+  border-radius: 5px;
+  border: 1.5px solid #fff;
+}
+.fancy-short-banner-four .form-wrapper form input {
+  font-style: italic;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  height: 100%;
+  padding: 0 150px 0 25px;
+  background: transparent;
+}
+.fancy-short-banner-four .form-wrapper form button {
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+  top: 7px;
+  width: 160px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 16px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.fancy-short-banner-four .form-wrapper form button:hover {
+  background: var(--blue-light);
+  color: #fff;
+}
+.fancy-short-banner-four .form-wrapper p {
+  font-size: 16px;
+  color: #999999;
+  padding-top: 10px;
+}
+.fancy-short-banner-four .form-wrapper p a {
+  color: #fff;
+}
+.fancy-short-banner-four .form-wrapper p a:hover {
+  text-decoration: underline;
+}

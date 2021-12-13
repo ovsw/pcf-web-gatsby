@@ -1,0 +1,44 @@
+
+/*------------------ Fancy Text block Nine ----------------*/
+.fancy-text-block-nine {
+  position: relative;
+}
+.fancy-text-block-nine .text-meta {
+  font-size: 24px;
+  line-height: 1.66em;
+  padding-top: 40px;
+  text-align: center;
+  color: #515151;
+}
+.fancy-text-block-nine .shape-one {
+  width: 10px;
+  height: 10px;
+  background: #ffdbd0;
+  top: 5%;
+  right: 13%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-text-block-nine .shape-two {
+  width: 6px;
+  height: 6px;
+  background: #f77a56;
+  bottom: 9%;
+  right: 13%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-text-block-nine .shape-three {
+  width: 8px;
+  height: 8px;
+  background: #ffdbd0;
+  bottom: 9%;
+  left: 13%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-text-block-nine .shape-four {
+  width: 11px;
+  height: 11px;
+  background: #ff7052;
+  top: 12%;
+  left: 13%;
+  animation: jumpThree 5s infinite linear;
+}

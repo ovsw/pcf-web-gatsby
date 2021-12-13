@@ -1,0 +1,70 @@
+
+/*------------------ Footer Style Three ----------------*/
+.theme-footer-three {
+  position: relative;
+}
+.theme-footer-three:before {
+  content: url(../../images/shape/92.svg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.theme-footer-three .top-footer [class*="col-"] {
+  margin-bottom: 30px;
+  z-index: 1;
+  position: relative;
+}
+.theme-footer-three .top-footer .footer-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  padding-bottom: 18px;
+}
+.theme-footer-three .top-footer .footer-list ul li a {
+  font-size: 16px;
+  line-height: 40px;
+  color: #727272;
+  transition: all 0.3s ease-in-out;
+}
+.theme-footer-three .top-footer .footer-list ul li a:hover {
+  color: var(--blue-light);
+}
+.theme-footer-three .top-footer .address-list p {
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+.theme-footer-three .top-footer .address-list ul.info li a {
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+.theme-footer-three .top-footer .address-list ul.info li a:hover {
+  text-decoration: underline;
+}
+.theme-footer-three .top-footer .address-list .social-icon a {
+  font-size: 22px;
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.55);
+}
+.theme-footer-three .top-footer .address-list .social-icon a:hover {
+  color: #000;
+}
+.theme-footer-three .bottom-footer-content ul li {
+  display: inline-block;
+}
+.theme-footer-three .bottom-footer-content ul li a {
+  font-size: 16px;
+  color: #727272;
+  margin-left: 20px;
+}
+.theme-footer-three .bottom-footer-content ul li a:hover {
+  color: #000;
+}
+.theme-footer-three .bottom-footer-content p {
+  font-size: 15px;
+  color: #212121;
+  padding-left: 35px;
+}
+.theme-footer-three .bottom-footer-content {
+  padding: 26px 0 30px;
+}

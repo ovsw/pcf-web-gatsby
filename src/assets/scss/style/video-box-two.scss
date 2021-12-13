@@ -1,0 +1,45 @@
+
+/*----------------- Video Box Two -------------------*/
+.video-box-two .video-icon {
+  width: 170px;
+  height: 110px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.3s ease-in-out;
+  transform: translate(-50%, -50%);
+}
+.video-box-two .video-icon img {
+  margin-left: -9px;
+}
+.video-box-two .video-icon:hover {
+  background: #ffb840;
+}
+
+// second file 
+
+/*----------------- Video Box Two -------------------*/
+.fancy-video-box-two .main-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.fancy-video-box-two {
+  position: relative;
+}
+.fancy-video-box-two .video-button {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  background: var(--blue-dark);
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.fancy-video-box-two .video-button:hover {
+  background: #ffba12;
+}

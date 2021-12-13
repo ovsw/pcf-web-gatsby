@@ -1,0 +1,80 @@
+/*----------------------- Faq Classic ----------------------*/
+.faq-classic.with-bg {
+  background: #f7faff;
+  padding: 120px 0 250px;
+  z-index: 5;
+  position: relative;
+}
+.faq-classic.with-bg .shape-one {
+  top: 13%;
+  right: 4%;
+}
+.faq-classic.with-bg .shape-two {
+  top: 36%;
+  right: 11%;
+}
+.faq-classic.with-bg .shape-three {
+  top: 63%;
+  right: 0;
+}
+.faq-classic.with-bg .shape-four {
+  top: 63%;
+  left: 0%;
+}
+.faq-classic.with-bg .shape-five {
+  top: 41%;
+  left: 5%;
+}
+.faq-classic.with-bg .shape-six {
+  top: 14%;
+  left: 0;
+}
+.faq-classic .card {
+  background: #fff;
+  box-shadow: 0px 5px 20px 0px rgba(90, 111, 155, 0.05);
+  margin-bottom: 20px;
+  border-radius: 0;
+  border: none;
+}
+.faq-classic .card .card-header {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+.faq-classic .card .card-header button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 20px 15px 20px 70px;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  color: var(--heading);
+  text-decoration: none;
+  position: relative;
+}
+.faq-classic .card .card-header button:before {
+  content: "+";
+  position: absolute;
+  font-size: 24px;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+}
+.faq-classic .card .card-body {
+  padding: 0 50px 20px 70px;
+}
+.faq-classic .card .card-body p {
+  font-size: 17px;
+}
+.faq-classic .card .card-body p a {
+  text-decoration: underline;
+  color: var(--p-color);
+}
+.faq-classic .card:last-child .card-body {
+  border: none;
+}

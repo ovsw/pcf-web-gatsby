@@ -1,0 +1,94 @@
+
+/*------------------ Fancy Feature Nine --------------*/
+.fancy-feature-nine {
+  position: relative;
+  background: #dff1ee;
+  padding: 140px 0 135px;
+  z-index: 5;
+}
+.fancy-feature-nine:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  background: url(../../images/shape/105.svg) no-repeat center top;
+  background-size: cover;
+  left: 0;
+  top: -50px;
+}
+.fancy-feature-nine:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  background: url(../../images/shape/106.svg) no-repeat center bottom;
+  background-size: cover;
+  left: 0;
+  bottom: -70px;
+}
+.fancy-feature-nine .shape-one {
+  top: 7%;
+  right: 13%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-feature-nine .shape-two {
+  top: 45%;
+  right: 5%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-feature-nine .shape-three {
+  top: 88%;
+  right: 10%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-feature-nine .shape-four {
+  top: 89%;
+  left: 11%;
+  animation: jumpTwo 5s infinite linear;
+}
+.fancy-feature-nine .shape-five {
+  top: 43%;
+  left: 4%;
+  animation: jumpThree 5s infinite linear;
+}
+.fancy-feature-nine .shape-six {
+  top: 9%;
+  left: 15%;
+  animation: jumpTwo 5s infinite linear;
+}
+.block-style-fourteen {
+  position: relative;
+  padding: 0 25px;
+  margin-top: 55px;
+  text-align: center;
+}
+.block-style-fourteen .illustration {
+  height: 220px;
+}
+.block-style-fourteen .illustration img {
+  margin: 0 auto;
+  max-height: 100%;
+}
+.block-style-fourteen .title {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.55);
+  padding: 20px 0 15px;
+}
+.block-style-fourteen p {
+  font-size: 23px;
+  line-height: 1.52em;
+  color: #000;
+}
+.block-style-fourteen.arrow-shape:before,
+.block-style-fourteen.arrow-shape:after {
+  content: url(../../images/shape/104.svg);
+  position: absolute;
+  top: 26%;
+  z-index: 1;
+}
+.block-style-fourteen.arrow-shape:before {
+  left: -20%;
+}
+.block-style-fourteen.arrow-shape:after {
+  right: -20%;
+}

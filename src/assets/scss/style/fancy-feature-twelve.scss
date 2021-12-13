@@ -1,0 +1,119 @@
+
+/*---------------------- Fancy Feature Eight --------------*/
+.block-style-twelve .text-wrapper h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.54);
+  letter-spacing: 2px;
+}
+.block-style-twelve .text-wrapper .title {
+  font-size: 42px;
+  line-height: 1.28em;
+  padding: 20px 0 30px;
+}
+.block-style-twelve .text-wrapper p {
+  font-size: 22px;
+  line-height: 1.59em;
+}
+.block-style-twelve {
+  padding: 140px 0;
+  position: relative;
+}
+.block-style-twelve:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 13px;
+  left: 0;
+  bottom: -7px;
+  background: url(../../images/shape/line-shape-9.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.block-style-twelve:last-child {
+  padding-bottom: 0;
+}
+.block-style-twelve:last-child:before {
+  display: none;
+}
+
+// second file
+
+
+/*------------------ Fancy Feature Twelve --------------*/
+.fancy-feature-twelve {
+  position: relative;
+  z-index: 2;
+}
+.fancy-feature-twelve .shape-one {
+  top: 3%;
+  left: 10%;
+}
+.fancy-feature-twelve .row {
+  margin: 0 -30px;
+}
+.fancy-feature-twelve .row [class*="col-"] {
+  padding: 0 30px;
+}
+.block-style-seventeen {
+  padding: 32px 50px 40px 44px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 17px;
+  position: relative;
+  z-index: 1;
+}
+.block-style-seventeen:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    111.21deg,
+    #b526a6 -2.4%,
+    #e14e66 46.51%,
+    #e38039 93.12%
+  );
+  border-radius: 17px;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.block-style-seventeen:hover:before {
+  opacity: 1;
+}
+.block-style-seventeen .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.block-style-seventeen h3 {
+  font-weight: 500;
+  font-size: 24px;
+  padding: 26px 0 20px;
+}
+.block-style-seventeen .static-text {
+  transition: all 0.3s ease-in-out;
+}
+.block-style-seventeen .hover-text {
+  font-size: 24px;
+  line-height: 1.5em;
+  color: #fff;
+  position: absolute;
+  left: 44px;
+  top: 112px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.block-style-seventeen:hover .static-text {
+  opacity: 0;
+}
+.block-style-seventeen:hover .hover-text {
+  opacity: 1;
+}
+.block-style-seventeen .js-tilt-glare {
+  border-radius: 17px;
+}
