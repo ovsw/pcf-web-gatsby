@@ -1,5 +1,5 @@
 import * as React from "react"
-import Icon119 from '../../images/svg/icon-119.inline.svg'
+import Icon119 from "../../images/svg/icon-119.inline.svg"
 
 const FormAppoint = () => {
   const handleSubmit = event => {
@@ -7,7 +7,7 @@ const FormAppoint = () => {
   }
   return (
     <form onClick={handleSubmit}>
-      <input type="email" placeholder="ihidago@ujufidnan.gov" />
+      <input type="email" placeholder="your@email.address" />
       <button className="d-flex justify-content-center align-items-center">
         {/* <img src="images/icon/119.svg" alt="icon" /> */}
         <Icon119 />
