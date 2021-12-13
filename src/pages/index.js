@@ -32,12 +32,13 @@ const IndexPage = () => {
             >
               <div className="title-style-eight text-center mb-40 md-mb-10">
                 <h2>
-                  One Platform. For any{" "}
+                  One Platform. For all{" "}
                   <span>
                     business
                     <Shape189 className="marker" />
                     {/* <img src="images/shape/191.svg" alt="shape" /> */}
-                  </span>
+                  </span>{" "}
+                  needs
                 </h2>
               </div>
             </div>
