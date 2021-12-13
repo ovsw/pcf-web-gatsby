@@ -1,6 +1,10 @@
-import React, { useState, useEffect } from "react"
+import * as React from "react"
+import { useState, useEffect } from "react"
 import Scrollspy from "react-scrollspy"
 import { Link } from "gatsby"
+
+import LogoSvg from "../../../images/svg/logos/deski_06.inline.svg"
+import Icon120 from "../../../images/svg/icon-120.inline.svg"
 
 const HeaderLandingAppointment = () => {
   const [click, setClick] = useState(false)
@@ -40,7 +44,8 @@ const HeaderLandingAppointment = () => {
         <div className="d-flex align-items-center">
           <div className="logo">
             <Link to="/project-management">
-              <img src="images/logo/deski_06.svg" alt="brand" />
+              <LogoSvg />
+              {/* <img src="images/logo/deski_06.svg" alt="brand" /> */}
             </Link>
           </div>
           {/* End logo */}
@@ -52,7 +57,8 @@ const HeaderLandingAppointment = () => {
                   to="login"
                   className="signIn-action d-flex align-items-center"
                 >
-                  <img src="images/icon/120.svg" alt="icon" />
+                  {/* <img src="images/icon/120.svg" alt="icon" /> */}
+                  <Icon120 />
                   <span>login</span>
                 </Link>
               </li>
@@ -93,18 +99,33 @@ const HeaderLandingAppointment = () => {
                     offset={-90}
                   >
                     <li className="nav-item">
+                      <a href="#feature" className="nav-link" style={{color: "black"}}>
+                        Product
+                      </a>
+                    </li>
+                    <li className="nav-item">
                       <a href="#feature" className="nav-link">
                         Features
                       </a>
                     </li>
                     <li className="nav-item">
                       <a href="#service" className="nav-link">
-                        Services
+                        Testimonials
                       </a>
                     </li>
                     <li className="nav-item">
                       <a href="#feedback" className="nav-link">
-                        Feedback
+                        About
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a href="#feedback" className="nav-link">
+                        Pricing
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a href="#feedback" className="nav-link">
+                        Contact
                       </a>
                     </li>
                   </Scrollspy>
@@ -148,6 +169,11 @@ const HeaderLandingAppointment = () => {
           <li className="nav-item">
             <a href="#feedback" className="nav-link" onClick={handleClick}>
               Feedback
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#feedback" className="nav-link" onClick={handleClick}>
+              Contact
             </a>
           </li>
         </Scrollspy>

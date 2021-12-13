@@ -1,5 +1,6 @@
 import * as React from "react"
 import HeaderLandingAppointment from "../components/header/landing/HeaderLandingAppointment"
+import HeroBannerNine from "../components/hero-banner/HeroBannerNine"
 
 // markup
 const IndexPage = () => {
@@ -12,6 +13,10 @@ const IndexPage = () => {
 
       <HeaderLandingAppointment />
       {/* End Header Landing Appoinment Scheduling */}
+
+      <HeroBannerNine />
+      <HeroBannerNine />
+      <HeroBannerNine />
     </main>
   )
 }

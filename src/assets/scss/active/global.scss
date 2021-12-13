@@ -1,0 +1,130 @@
+/*______________________ Global style ___________________*/
+.main-page-wrapper {
+  overflow: hidden;
+  padding-top: 150px;
+}
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+  color: var(--heading);
+  font-weight: normal;
+}
+.h1,
+h1 {
+  font-size: 80px;
+  line-height: 1.1em;
+}
+.h2,
+h2 {
+  font-size: 52px;
+  line-height: 1.1em;
+}
+.h3,
+h3 {
+  font-size: 36px;
+}
+.h4,
+h4 {
+  font-size: 22px;
+}
+.h5,
+h5 {
+  font-size: 20px;
+}
+.h6,
+h6 {
+  font-size: 15px;
+}
+.font-rubik {
+  font-family: "Rubik", sans-serif !important;
+}
+.font-gilroy-bold {
+  font-family: "gilroy-bold" !important;
+}
+.font-slab {
+  font-family: "Roboto Slab", serif !important;
+}
+.font-gordita {
+  font-family: "gordita" !important;
+}
+.font-recoleta {
+  font-family: "Recoleta" !important;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #acaeb3;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #acaeb3;
+}
+::placeholder {
+  color: #acaeb3;
+}
+.cs-screen {
+  position: absolute;
+}
+.illustration-holder {
+  position: relative;
+}
+.shapes {
+  position: absolute;
+  z-index: -1;
+}
+.dark-style {
+  background: #0f1123;
+  color: #afafaf;
+}
+.dark-style .h1,
+.dark-style h1,
+.dark-style .h2,
+.dark-style h2,
+.dark-style .h3,
+.dark-style h3,
+.dark-style .h4,
+.dark-style h4,
+.dark-style .h5,
+.dark-style h5,
+.dark-style .h6,
+.dark-style h6 {
+  color: #fff;
+}
+.gr-bg-one {
+  background: linear-gradient(90.6deg, #f548a0 2.93%, #f57c35 99.47%);
+}
+.hover-reverse-gr-bg-one {
+  position: relative;
+  z-index: 1;
+}
+.hover-reverse-gr-bg-one:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: linear-gradient(270.01deg, #f548a0 0.01%, #f57c35 100%);
+  border-radius: 6px;
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
+  z-index: -1;
+}
+.hover-reverse-gr-bg-one:hover:before {
+  opacity: 1;
+}
+.top-border {
+  border-top: 1px solid #efefef;
+}
+.bottom-border {
+  border-bottom: 1px solid #efefef;
+}
+
