@@ -8,17 +8,20 @@ const FeaturesOne = () => {
       {/* =============================================
             Fancy Feature Twenty Three
         ==============================================  */}
-      <div className="fancy-feature-twentyThree pt-170 md-pt-100" id="feature">
+      <div
+        className="fancy-feature-twentyThree pt-170 md-pt-100"
+        id="features-one"
+      >
         <div className="container">
           <div
             className="title-style-nine text-center pb-180 md-pb-100"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <h6>Our solution helps you</h6>
+            <h6>3D Product Previews will</h6>
             <h2>
               {/* A solution that{" "} */}
-              increase sales & decrease costs{" "}
+              Increase Sales and Decrease Costs{" "}
               <span>
                 at the same time
                 {/* <img src="images/shape/192.svg" alt="shape" /> */}

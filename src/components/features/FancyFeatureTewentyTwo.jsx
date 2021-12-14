@@ -14,7 +14,7 @@ const FeatureContent = [
   {
     icon: Icon123,
     title: "2. Configure",
-    subTitle: `Add options for visitors to configure your product to their liking. All sharp and fast 3D.`,
+    subTitle: `Add options for visitors to configure your product to their liking, via a hi-fi 3D preview.`,
     bgColor: "#6D49FF",
   },
   {

@@ -1,15 +1,27 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import { useEffect } from "react"
+
+import AOS from "aos"
+
 import HeaderLandingAppointment from "../components/header/landing/HeaderLandingAppointment"
 import HeroBannerNine from "../components/hero-banner/HeroBannerNine"
 
 import Product from "../components/customized/home/product"
 import FeaturesOne from "../components/customized/home/features-one"
+import FeaturesTwo from "../components/customized/home/features-two"
+
+import "aos/dist/aos.css"
 
 // markup
 const IndexPage = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+    })
+  }, [])
+
   return (
-    <main>
+    <main style={{ overflowX: "hidden" }}>
       <title>
         Appointment Scheduling || Deski-Saas & Software React Template
       </title>
@@ -17,9 +29,72 @@ const IndexPage = () => {
 
       <HeaderLandingAppointment />
       <HeroBannerNine />
-
+      <div id="overview"></div>
       <Product />
       <FeaturesOne />
+      <div id="features">
+        <FeaturesTwo />
+      </div>
+      <div id="testimonials">
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaa</p>
+      </div>
     </main>
   )
 }

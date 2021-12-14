@@ -5,9 +5,9 @@ import { Link } from "gatsby"
 import BrandFour from "../brand/BrandFour"
 import FormAppoint from "../form/FormAppoint"
 
-import Shape189 from "../../images/svg/shape-189.inline.svg"
-import Shape190 from "../../images/svg/shape-190.inline.svg"
-import Shape230 from "../../images/svg/shape-230.inline.svg"
+import Highlight from "../../images/svg/shape-189.inline.svg"
+// import Shape190 from "../../images/svg/shape-190.inline.svg"
+// import Shape230 from "../../images/svg/shape-230.inline.svg"
 
 const HeroBannerNine = () => {
   return (
@@ -29,7 +29,7 @@ const HeroBannerNine = () => {
             // placeholder="tracedSVG"
             // width={201}
           />
-          {/* <img src="images/assets/screen_17.png" alt="screen" /> */}
+          {/* <img src="shape-230.svg" alt="screen" /> */}
         </div>
         {/* illustration-container */}
 
@@ -40,7 +40,7 @@ const HeroBannerNine = () => {
               <span>
                 Anything
                 {/* <img src="images/shape/189.svg" alt="shape" /> */}
-                <Shape189 className="marker" />
+                <Highlight className="marker" />
               </span>{" "}
               in 3D
             </h1>
@@ -63,7 +63,10 @@ const HeroBannerNine = () => {
 
       <div className="partner-slider-two mt-130 md-mt-100">
         <div className="container">
-          <p>Join the ranks of <span>successful businesses</span> using our service</p>
+          <p>
+            Join the ranks of <span>successful businesses</span> using our
+            service
+          </p>
           <div className="partnerSliderTwo">
             {/* *********************************** */}
             <BrandFour />

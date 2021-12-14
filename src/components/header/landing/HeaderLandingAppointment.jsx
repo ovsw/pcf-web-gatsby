@@ -94,37 +94,47 @@ const HeaderLandingAppointment = () => {
                 <div className="d-lg-flex justify-content-between align-items-center">
                   <Scrollspy
                     className="navbar-nav  main-side-nav font-gordita"
-                    items={["feature", "service", "feedback"]}
+                    items={[
+                      "overview",
+                      "features",
+                      "testimonials",
+                      "pricing",
+                      "contact",
+                    ]}
                     currentClassName="active"
-                    offset={-90}
+                    // offset={-200}
                   >
                     <li className="nav-item">
-                      <a href="#feature" className="nav-link" style={{color: "black"}}>
-                        Product
+                      <a
+                        href="#overview"
+                        className="nav-link"
+                        style={{ color: "black" }}
+                      >
+                        Overview
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="#feature" className="nav-link">
+                      <a href="#features" className="nav-link">
                         Features
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="#service" className="nav-link">
+                      <a href="#testimonials" className="nav-link">
                         Testimonials
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="#feedback" className="nav-link">
+                      <a href="#about" className="nav-link">
                         About
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="#feedback" className="nav-link">
+                      <a href="#pricing" className="nav-link">
                         Pricing
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="#feedback" className="nav-link">
+                      <a href="#contact" className="nav-link">
                         Contact
                       </a>
                     </li>
