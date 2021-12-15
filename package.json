@@ -34,6 +34,7 @@
     "react-modal-video": "^1.2.8",
     "react-scrollspy": "^3.4.3",
     "react-slick": "^0.28.1",
+    "react-tabs": "^3.2.3",
     "sass": "^1.45.0",
     "slick-carousel": "^1.8.1"
   },

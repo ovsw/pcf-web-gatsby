@@ -1,4 +1,3 @@
-
 /*------------------- Pricing Section One ------------------*/
 
 .pricing-nav-one {
@@ -23,27 +22,30 @@
 .pricing-nav-one .react-tabs__tab {
   font-family: "Rubik", sans-serif;
   line-height: 50px;
-  border: 2px solid var(--blue-dark);
+  border: 2px solid var(--blue-darker);
   padding: 0 15px;
   width: 172px;
   text-align: center;
   cursor: pointer;
-  color: var(--blue-dark);
+  color: var(--blue-darker);
   transition: all 0.3s ease-in-out;
+}
+.pricing-nav-one div .react-tabs__tab:first-child {
+  border-radius: 10px 0 0 10px;
 }
 
 .pricing-nav-one .nav-item:nth-child(2) .nav-link,
 .pricing-nav-one #react-tabs-2 {
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 10px 10px 0;
 }
 .pricing-nav-one .nav-item .nav-link.active,
 .pricing-nav-one .react-tabs__tab.react-tabs__tab--selected {
-  background: var(--blue-dark);
+  background: var(--blue-darker);
   color: #fff;
 }
 .pricing-section-one .offer-text {
   text-align: center;
-  color: var(--blue-dark);
+  color: var(--blue-darker);
 }
 .pricing-section-one .pricing-table-area {
   position: relative;
@@ -81,8 +83,8 @@
   transform: translateY(-5px);
 }
 .pricing-section-one .pr-table-wrapper .pack-name {
-  font-family: "gilroy-semibold";
-  font-size: 18px;
+  // font-family: "gilroy-semibold";
+  font-size: 16px;
   text-transform: uppercase;
   color: #202020;
   letter-spacing: 2.1px;
