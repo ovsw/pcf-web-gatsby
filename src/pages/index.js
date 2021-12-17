@@ -10,6 +10,7 @@ import Product from "../components/customized/home/product"
 import FeaturesOne from "../components/customized/home/features-one"
 import FeaturesTwo from "../components/customized/home/features-two"
 import Pricing from "../components/customized/home/pricing"
+import TestimonialsSection from "../components/customized/home/testimonials"
 
 import "aos/dist/aos.css"
 
@@ -38,7 +39,7 @@ const IndexPage = () => {
           <FeaturesTwo />
         </div>
         <div id="testimonials">
-          <p>aaaaaaaaaaaaaaaa</p>
+          <TestimonialsSection />
         </div>
 
         <Pricing />
